@@ -1,0 +1,8 @@
+name: 'Anita Evensen'
+super: true
+id: d9deb1ad-e8b7-468c-bcf2-246fd8cd40fb
+password_hash: $2y$10$gicCIMh5kL6QRwozdfYnlOOYVL9GJLeFAMR5.tgumHB9UecO8ohi2
+preferences:
+  collections:
+    pages:
+      after_save: create_another

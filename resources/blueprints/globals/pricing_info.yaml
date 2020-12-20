@@ -1,0 +1,24 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: monthly_price
+        field:
+          input_type: number
+          prepend: $
+          antlers: false
+          display: 'Monthly Price'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: annual_price
+        field:
+          input_type: number
+          antlers: false
+          display: 'Annual Price'
+          type: text
+          icon: text
+          listable: hidden
+          prepend: $

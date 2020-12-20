@@ -1,0 +1,35 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: copyright_message
+        field:
+          input_type: text
+          antlers: true
+          display: 'Copyright Message'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: facebook
+        field:
+          display: Facebook
+          type: link
+          icon: link
+          listable: hidden
+      -
+        handle: twitter
+        field:
+          display: Twitter
+          type: link
+          icon: link
+          listable: hidden
+      -
+        handle: message
+        field:
+          antlers: false
+          display: Message
+          type: textarea
+          icon: textarea
+          listable: hidden

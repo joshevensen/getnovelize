@@ -1,0 +1,34 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: logo
+        field:
+          mode: grid
+          container: assets
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: Logo
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: call_to_action_button_text
+        field:
+          input_type: text
+          antlers: false
+          display: 'Call To Action Button Text'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: email_address
+        field:
+          input_type: text
+          antlers: false
+          display: 'Email Address'
+          type: text
+          icon: text
+          listable: hidden
