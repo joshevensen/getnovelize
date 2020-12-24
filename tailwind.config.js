@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
     purge: {
       content: [
@@ -8,8 +10,15 @@ module.exports = {
     },
     important: true,
     theme: {
+      colors: {
+        gray: colors.warmGray,
+        orange: colors.orange,
+      },
       extend: {},
     },
     variants: {},
-    plugins: [],
+    plugins: [
+      require('@tailwindcss/forms'),
+      require('@tailwindcss/typography'),
+    ],
   }
