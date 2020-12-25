@@ -1,7 +1,7 @@
 ---
 title: Pricing
 author: d9deb1ad-e8b7-468c-bcf2-246fd8cd40fb
-template: default
+template: pages/pricing
 seotamic_title: title
 seotamic_title_prepend: true
 seotamic_title_append: true
@@ -11,7 +11,7 @@ seotamic_open_graph_description: general
 seotamic_twitter_title: title
 seotamic_twitter_description: general
 updated_by: d9deb1ad-e8b7-468c-bcf2-246fd8cd40fb
-updated_at: 1608501260
-id: 4b7d1b9d-dc62-453d-a5e1-bbca6f118286
+updated_at: 1608854827
 blueprint: pages
+id: 4b7d1b9d-dc62-453d-a5e1-bbca6f118286
 ---

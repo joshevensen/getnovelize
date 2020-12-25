@@ -1,6 +1,5 @@
 ---
-name: 'Josh Evensen'
-title: Co-Founder/CEO
+title: 'Anita Evensen'
 seotamic_title: title
 seotamic_title_prepend: true
 seotamic_title_append: true
@@ -10,6 +9,6 @@ seotamic_open_graph_description: general
 seotamic_twitter_title: title
 seotamic_twitter_description: general
 updated_by: d9deb1ad-e8b7-468c-bcf2-246fd8cd40fb
-updated_at: 1608505116
-id: 32d3e100-8d33-41ae-bfd5-1333d5d824f8
+updated_at: 1608856007
+id: 640d515b-27a6-4ecf-b95a-c3a677e84d01
 ---

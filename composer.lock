@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e99e43689438b1b3ee43d3edbcb1392f",
+    "content-hash": "7d9512e813ed537d0de3f920c85c15f9",
     "packages": [
         {
             "name": "aryehraber/statamic-splash",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aryehraber/statamic-splash.git",
-                "reference": "85b8fd3cadc77ffbdba754e0249955aaf3648ba1"
+                "reference": "de0e646737e17a1b17e73ea612494612f253cc4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aryehraber/statamic-splash/zipball/85b8fd3cadc77ffbdba754e0249955aaf3648ba1",
-                "reference": "85b8fd3cadc77ffbdba754e0249955aaf3648ba1",
+                "url": "https://api.github.com/repos/aryehraber/statamic-splash/zipball/de0e646737e17a1b17e73ea612494612f253cc4c",
+                "reference": "de0e646737e17a1b17e73ea612494612f253cc4c",
                 "shasum": ""
             },
             "require": {
@@ -29,7 +29,7 @@
                     "name": "Splash",
                     "slug": "splash",
                     "description": "Browse Unsplash images right from the CP.",
-                    "version": "1.0.4"
+                    "version": "1.0.5"
                 },
                 "laravel": {
                     "providers": [
@@ -63,7 +63,7 @@
             ],
             "support": {
                 "issues": "https://github.com/aryehraber/statamic-splash/issues",
-                "source": "https://github.com/aryehraber/statamic-splash/tree/v1.0.4"
+                "source": "https://github.com/aryehraber/statamic-splash/tree/v1.0.5"
             },
             "funding": [
                 {
@@ -71,7 +71,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-11-08T15:40:55+00:00"
+            "time": "2020-12-21T19:32:37+00:00"
         },
         {
             "name": "asm89/stack-cors",
@@ -3386,16 +3386,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.0.35",
+            "version": "v3.0.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "653430e185e9c457b69bb879e30b6db1b4894606"
+                "reference": "796c58a528811273a63c9d1e8b85cfff4c06834f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/653430e185e9c457b69bb879e30b6db1b4894606",
-                "reference": "653430e185e9c457b69bb879e30b6db1b4894606",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/796c58a528811273a63c9d1e8b85cfff4c06834f",
+                "reference": "796c58a528811273a63c9d1e8b85cfff4c06834f",
                 "shasum": ""
             },
             "require": {
@@ -3460,13 +3460,17 @@
                 "laravel",
                 "statamic"
             ],
+            "support": {
+                "issues": "https://github.com/statamic/cms/issues",
+                "source": "https://github.com/statamic/cms/tree/v3.0.36"
+            },
             "funding": [
                 {
                     "url": "https://github.com/statamic",
                     "type": "github"
                 }
             ],
-            "time": "2020-12-17T16:29:54+00:00"
+            "time": "2020-12-23T19:50:36+00:00"
         },
         {
             "name": "statamic/stringy",

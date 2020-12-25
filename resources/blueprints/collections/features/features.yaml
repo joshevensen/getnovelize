@@ -13,10 +13,30 @@ sections:
       -
         handle: description
         field:
-          antlers: false
+          always_show_set_button: false
+          buttons:
+            - bold
+            - italic
+            - underline
+            - strikethrough
+            - unorderedlist
+            - orderedlist
+            - anchor
+            - superscript
+            - subscript
+            - removeformat
+          container: blog_images
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: false
+          allow_source: true
           display: Description
-          type: textarea
-          icon: textarea
+          type: bard
+          icon: bard
           listable: hidden
       -
         handle: screen_shot

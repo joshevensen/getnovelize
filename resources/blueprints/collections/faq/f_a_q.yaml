@@ -21,20 +21,21 @@ sections:
           buttons:
             - bold
             - italic
+            - underline
+            - strikethrough
             - unorderedlist
             - orderedlist
-            - removeformat
             - anchor
-            - underline
             - superscript
             - subscript
+            - removeformat
           save_html: false
           toolbar_mode: fixed
           link_noopener: false
           link_noreferrer: false
           target_blank: false
           reading_time: false
-          fullscreen: true
+          fullscreen: false
           allow_source: true
           display: Answer
           type: bard

@@ -1,6 +1,6 @@
 ---
 title: Home
-template: home
+template: pages/home
 author: d9deb1ad-e8b7-468c-bcf2-246fd8cd40fb
 seotamic_title: title
 seotamic_title_prepend: true
@@ -11,7 +11,13 @@ seotamic_open_graph_description: general
 seotamic_twitter_title: title
 seotamic_twitter_description: general
 updated_by: d9deb1ad-e8b7-468c-bcf2-246fd8cd40fb
-updated_at: 1608499094
+updated_at: 1608854597
 id: home
+content:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Welcome to your new Statamic website.'
 ---
-Welcome to your new Statamic website.

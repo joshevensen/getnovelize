@@ -1,33 +1,58 @@
 title: Pages
 sections:
   main:
+    display: Main
     fields:
       -
         handle: title
         field:
           type: text
           required: true
+          validate:
+            - required
       -
         handle: content
         field:
-          type: markdown
+          always_show_set_button: false
+          buttons:
+            - h2
+            - h3
+            - h4
+            - bold
+            - italic
+            - underline
+            - strikethrough
+            - unorderedlist
+            - orderedlist
+            - anchor
+            - quote
+            - image
+            - superscript
+            - subscript
+            - removeformat
+          container: blog_images
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: true
+          fullscreen: true
+          allow_source: true
           display: Content
-          localizable: true
-      -
-        handle: author
-        field:
-          type: users
-          display: Author
-          default: current
-          localizable: true
-          max_items: 1
+          type: bard
+          icon: bard
+          listable: hidden
       -
         handle: template
         field:
           type: template
           display: Template
           localizable: true
+          listable: true
+          hide_partials: true
   sidebar:
+    display: Sidebar
     fields:
       -
         handle: slug
@@ -35,6 +60,8 @@ sections:
           type: slug
           required: true
           localizable: true
+          validate:
+            - required
       -
         handle: parent
         field:
@@ -45,6 +72,7 @@ sections:
           listable: false
           localizable: true
   SEO:
+    display: SEO
     fields:
       -
         handle: seotamic_meta

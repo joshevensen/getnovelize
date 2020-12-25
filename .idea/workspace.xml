@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="123228ee-231c-4bec-92f3-d3ffc7f63abd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/contact.antlers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/faq.antlers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/features.antlers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/home.antlers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/pricing.antlers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/resources.antlers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/pages/home.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/pages/home.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/navigation/footer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/footer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/statamic-splash/js/splash-fieldtype.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/statamic-splash/js/splash-fieldtype.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/blueprints/collections/blog/blog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/collections/blog/blog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/blueprints/collections/faq/f_a_q.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/collections/faq/f_a_q.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/blueprints/collections/features/features.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/collections/features/features.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/blueprints/collections/pages/pages.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/collections/pages/pages.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/blueprints/collections/team/team.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/collections/team/team.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/blueprints/collections/testimonials/testimonials.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/collections/testimonials/testimonials.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/forms/contact_form.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/forms/contact_form.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/default.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/default.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.antlers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/josh@getnovelize.com.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/users/josh@getnovelize.com.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +172,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1lw4Y02c70t0XNuNoRBuYmmEj5l" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -174,6 +193,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/pages" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -190,7 +214,7 @@
       <updated>1608494862395</updated>
       <workItem from="1608494863920" duration="6131000" />
       <workItem from="1608557503828" duration="12000" />
-      <workItem from="1608847028904" duration="1738000" />
+      <workItem from="1608847028904" duration="5008000" />
     </task>
     <servers />
   </component>

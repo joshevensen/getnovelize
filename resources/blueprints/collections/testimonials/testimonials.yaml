@@ -21,8 +21,14 @@ sections:
           buttons:
             - bold
             - italic
-            - removeformat
             - underline
+            - strikethrough
+            - unorderedlist
+            - orderedlist
+            - anchor
+            - superscript
+            - subscript
+            - removeformat
           save_html: false
           toolbar_mode: fixed
           link_noopener: false

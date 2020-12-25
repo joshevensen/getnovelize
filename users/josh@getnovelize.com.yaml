@@ -4,5 +4,12 @@ id: d9deb1ad-e8b7-468c-bcf2-246fd8cd40fb
 password_hash: $2y$10$gicCIMh5kL6QRwozdfYnlOOYVL9GJLeFAMR5.tgumHB9UecO8ohi2
 preferences:
   collections:
-    pages:
+    features:
       after_save: create_another
+    faq:
+      after_save: create_another
+    team:
+      after_save: create_another
+  assets:
+    assets:
+      mode: table

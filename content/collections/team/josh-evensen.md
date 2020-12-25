@@ -1,6 +1,5 @@
 ---
-title: Resources
-author: d9deb1ad-e8b7-468c-bcf2-246fd8cd40fb
+title: 'Josh Evensen'
 seotamic_title: title
 seotamic_title_prepend: true
 seotamic_title_append: true
@@ -10,8 +9,6 @@ seotamic_open_graph_description: general
 seotamic_twitter_title: title
 seotamic_twitter_description: general
 updated_by: d9deb1ad-e8b7-468c-bcf2-246fd8cd40fb
-updated_at: 1608854832
-blueprint: pages
-template: pages/resources
-id: e5aed5c1-0bd0-4c9e-9994-cd01bb378fd3
+updated_at: 1608856015
+id: 16ca4ca7-24b0-499c-9daf-ee8c53b3d258
 ---

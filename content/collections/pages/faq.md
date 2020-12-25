@@ -10,7 +10,8 @@ seotamic_open_graph_description: general
 seotamic_twitter_title: title
 seotamic_twitter_description: general
 updated_by: d9deb1ad-e8b7-468c-bcf2-246fd8cd40fb
-updated_at: 1608501270
-id: 334c9f37-5ec6-44b5-949c-8ad6d53db154
+updated_at: 1608854765
 blueprint: pages
+template: pages/faq
+id: 334c9f37-5ec6-44b5-949c-8ad6d53db154
 ---
