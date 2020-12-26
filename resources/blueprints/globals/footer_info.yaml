@@ -6,30 +6,22 @@ sections:
         handle: copyright_message
         field:
           input_type: text
-          antlers: true
+          antlers: false
           display: 'Copyright Message'
           type: text
           icon: text
           listable: hidden
       -
-        handle: facebook
+        handle: facebook_page
         field:
-          display: Facebook
+          display: 'Facebook Page'
           type: link
           icon: link
           listable: hidden
       -
-        handle: twitter
+        handle: twitter_page
         field:
-          display: Twitter
+          display: 'Twitter Page'
           type: link
           icon: link
-          listable: hidden
-      -
-        handle: message
-        field:
-          antlers: false
-          display: Message
-          type: textarea
-          icon: textarea
           listable: hidden

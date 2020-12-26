@@ -1,3 +1,8 @@
 title: 'Company Details'
 data:
+  logo: novelize.png
+  name: 'Novelize Writing Software'
+  call_to_action_button_text: 'Start My Free 17-Day Trial Now!'
   email_address: support@getnovelize.com
+  login_link: //app.getnovelize.com/login
+  registration_link: //app.getnovelize.com/register

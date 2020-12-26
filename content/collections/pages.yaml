@@ -4,3 +4,22 @@ layout: layout
 revisions: false
 route: '{parent_uri}/{slug}'
 sort_dir: asc
+structure:
+  root: true
+  tree:
+    -
+      entry: home
+    -
+      entry: f51c02d0-84ba-4b4d-be7f-23089848fae8
+    -
+      entry: 4b7d1b9d-dc62-453d-a5e1-bbca6f118286
+    -
+      entry: 45bb8127-57da-404b-b7d4-c9862951111f
+    -
+      entry: 334c9f37-5ec6-44b5-949c-8ad6d53db154
+    -
+      entry: cf06e031-7029-4468-83f8-1fe4e91807f1
+    -
+      entry: e5aed5c1-0bd0-4c9e-9994-cd01bb378fd3
+    -
+      entry: a60a663c-166e-42c1-a674-ebaf03075851

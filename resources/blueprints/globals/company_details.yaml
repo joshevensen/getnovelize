@@ -15,6 +15,16 @@ sections:
           icon: assets
           listable: hidden
       -
+        handle: name
+        field:
+          input_type: text
+          antlers: false
+          display: Name
+          type: text
+          icon: text
+          instructions: 'used in places like logo alt text'
+          listable: hidden
+      -
         handle: call_to_action_button_text
         field:
           input_type: text
@@ -31,4 +41,18 @@ sections:
           display: 'Email Address'
           type: text
           icon: text
+          listable: hidden
+      -
+        handle: login_link
+        field:
+          display: 'Login Link'
+          type: link
+          icon: link
+          listable: hidden
+      -
+        handle: registration_link
+        field:
+          display: 'Registration Link'
+          type: link
+          icon: link
           listable: hidden

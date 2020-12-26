@@ -11,7 +11,12 @@ module.exports = {
     important: true,
     theme: {
       colors: {
-        gray: colors.warmGray,
+        transparent: 'transparent',
+        current: 'currentColor',
+
+        black: colors.black,
+        white: colors.white,
+        gray: colors.coolGray,
         orange: colors.orange,
       },
       extend: {},
@@ -20,5 +25,6 @@ module.exports = {
     plugins: [
       require('@tailwindcss/forms'),
       require('@tailwindcss/typography'),
+      require('@tailwindcss/aspect-ratio'),
     ],
   }
