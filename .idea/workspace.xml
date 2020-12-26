@@ -5,44 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="123228ee-231c-4bec-92f3-d3ffc7f63abd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/globals/footer_info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/.meta/novelize.png.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/novelize.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/blueprints/collections/pages/home.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/partials/_cta.antlers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/partials/_footer.antlers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/partials/_header.antlers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/partials/_hero.antlers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/collections/pages/privacy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/collections/pages/terms.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/collections/pages.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/pages.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/collections/pages/features.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/pages/features.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/collections/pages/home.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/pages/home.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/collections/pages/how-to-use-novelize.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/pages/how-to-use-novelize.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/globals/company_details.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/globals/company_details.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/globals/footer.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/brand/.meta/novelize.png.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/brand/novelize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/pages/contact.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/pages/contact.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/pages/faq.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/pages/faq.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/pages/pricing.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/pages/pricing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/team/anita-evensen.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/team/anita-evensen.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/team/josh-evensen.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/team/josh-evensen.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/team/shawn-pivonka.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/team/shawn-pivonka.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/tailwind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/site.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/blueprints/collections/pages/pages.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/collections/pages/pages.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/blueprints/globals/company_details.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/globals/company_details.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/blueprints/globals/footer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/globals/footer_info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/index.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/index.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/show.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/show.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/errors/404.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/errors/404.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/blueprints/collections/team/team.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/collections/team/team.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/contact.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/contact.antlers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/default.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/default.antlers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/faq.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/faq.antlers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/features.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/features.antlers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/home.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/partials/_footer.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/partials/_footer.antlers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/pricing.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/pricing.antlers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/resources.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/resources.antlers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/josh@getnovelize.com.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/users/josh@getnovelize.com.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +202,7 @@
       <recent name="$PROJECT_DIR$/resources/views/pages" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.phpunit.xml">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
@@ -261,7 +245,8 @@
       <workItem from="1608494863920" duration="6131000" />
       <workItem from="1608557503828" duration="12000" />
       <workItem from="1608847028904" duration="5775000" />
-      <workItem from="1608931869347" duration="9101000" />
+      <workItem from="1608931869347" duration="9723000" />
+      <workItem from="1608944857562" duration="4163000" />
     </task>
     <servers />
   </component>

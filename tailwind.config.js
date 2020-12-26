@@ -18,6 +18,8 @@ module.exports = {
         white: colors.white,
         gray: colors.coolGray,
         orange: colors.orange,
+        blue: colors.blue,
+        green: colors.green,
       },
       extend: {},
     },

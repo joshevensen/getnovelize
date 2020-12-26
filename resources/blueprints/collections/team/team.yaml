@@ -53,7 +53,7 @@ sections:
       -
         handle: avatar
         field:
-          mode: grid
+          mode: list
           container: images
           restrict: false
           allow_uploads: true

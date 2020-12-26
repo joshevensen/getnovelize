@@ -8,8 +8,6 @@ preferences:
       after_save: create_another
     faq:
       after_save: create_another
-    team:
-      after_save: create_another
   assets:
     assets:
       mode: table

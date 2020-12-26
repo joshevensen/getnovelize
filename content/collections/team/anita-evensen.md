@@ -9,6 +9,9 @@ seotamic_open_graph_description: general
 seotamic_twitter_title: title
 seotamic_twitter_description: general
 updated_by: d9deb1ad-e8b7-468c-bcf2-246fd8cd40fb
-updated_at: 1608856007
+updated_at: 1608947442
+avatar:
+  - photo-1463453091185-61582044d556.webp
+position: CEO
 id: 640d515b-27a6-4ecf-b95a-c3a677e84d01
 ---
