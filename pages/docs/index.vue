@@ -7,9 +7,6 @@ useSeoMeta({
 
 <template>
   <div>
-    <SectionHero />
-    <SectionFeatureSummary />
-    <SectionCTAShort />
-    <SectionBlogSummary />
+    <h1>Docs</h1>
   </div>
 </template>
