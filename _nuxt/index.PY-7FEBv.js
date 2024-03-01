@@ -1,0 +1,1 @@
+import{d as e,C as o,b as t,c as s,e as n}from"./entry.DBDf4X7E.js";const a=n("h1",null,"Docs",-1),c=[a],d=e({__name:"index",setup(l){return o({title:"Novelize",ogTitle:"Novelize"}),(_,i)=>(t(),s("div",null,c))}});export{d as default};
