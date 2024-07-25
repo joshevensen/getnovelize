@@ -1,5 +1,14 @@
+<script setup lang="ts">
+useSeoMeta({
+  title: "Blog | Novelize",
+  ogTitle: "Novelize",
+});
+</script>
+
 <template>
-  <main>
-    <ContentDoc />
-  </main>
+  <div>
+    <SectionContent>
+      <ContentDoc />
+    </SectionContent>
+  </div>
 </template>

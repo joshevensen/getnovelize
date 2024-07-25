@@ -1,3 +1,8 @@
+---
+title: "Privacy Policy"
+description: "We keep your information safe. Please read our privacy policy to see what we do with the data you provide us with. Contact us if you have any questions!"
+---
+
 Novelize constitutes the Novelize Writing App and its associated website. It is Novelize’s policy to respect your privacy regarding any information we may collect while operating our website and app.
 
 ## Website visitors

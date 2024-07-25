@@ -1,3 +1,8 @@
+---
+title: "Terms of Service"
+description: "Your novel belongs to you and only you. Please read our terms of service for more information about Novelize. Please contact us if you have any questions!"
+---
+
 The following terms and conditions govern all use of the GetNovelize.com website, associated web application, and all content, services and products available at or through the website and web application, including, but not limited to, the Novelize subscription service (taken together, Novelize). Novelize is offered subject to your acceptance without modification of all of the terms and conditions contained herein and all other operating rules, policies (including, without limitation, Novelize’s Privacy Policy) and procedures that may be published from time to time on this Site by Novelize (collectively, the “Agreement”).
 
 Please read this Agreement carefully before accessing or using Novelize. By accessing or using any part of the website or web application, you agree to become bound by the terms and conditions of this agreement. If you do not agree to all the terms and conditions of this agreement, then you may not access Novelize or use any of its services. If these terms and conditions are considered an offer by Novelize, acceptance is expressly limited to these terms. Novelize is available only to individuals who are at least 13 years old.

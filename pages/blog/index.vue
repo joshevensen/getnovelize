@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: "Novelize",
+  title: "Blog | Novelize",
   ogTitle: "Novelize",
 });
 </script>

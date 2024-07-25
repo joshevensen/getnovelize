@@ -1,0 +1,2 @@
+How can I cancel my account?
+Just log in and close your account. There’s no need to call or email us. You can cancel whenever you want by clicking a button. Just go to the account page and scroll to the bottom to close your account. On the same page, you also have the option to cancel your subscription and prevent further credit card charges without closing your account - this can be useful if you just want to take a writing break.
