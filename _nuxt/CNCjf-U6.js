@@ -1,0 +1,1 @@
+import{_ as t}from"./DlAUqK2U.js";import{f as o,g as a,h as e,P as c}from"./DqgVjFjP.js";const _={},n={class:"bg-white px-6 lg:px-8"},r={class:"mx-auto max-w-3xl text-base leading-7 text-gray-700"},d={class:"prose"};function i(s,l){return o(),a("div",n,[e("div",r,[e("div",d,[c(s.$slots,"default")])])])}const p=t(_,[["render",i]]);export{p as _};
