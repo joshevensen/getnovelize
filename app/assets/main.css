@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* 
+$orange3: #A94917;
+$orange2: #DC5B21;
+$orange1: #E28C66;
+$orange: $orange2;
+
+$navy: #020006;
+
+$black3: #000000;
+$black2: #1f1f1f;
+$black1: #212529;
+$black: $black2;
+
+$grey9: #343a40;
+$grey8: #495057;
+$grey7: #737373;
+$grey6: #868686;
+$grey5: #a0a0a0;
+$grey4: #bababa;
+$grey3: #c3c3c3;
+$grey2: #d1d1d1;
+$grey1: #e0e0e0;
+
+$bluegrey9: #263238;
+$bluegrey8: #37474F;
+$bluegrey7: #455A64;
+$bluegrey6: #546E7A;
+$bluegrey5: #607D8B;
+$bluegrey4: #78909C;
+$bluegrey3: #90A4AE;
+$bluegrey2: #B0BEC5;
+$bluegrey1: #CFD8DC;
+$bluegrey0: #ECEFF1;
+
+$white4: #ededed;
+$white3: #F7F7F7;
+$white2: #FDFDFD;
+$white: #FFF;
+
+$beige4: #8d8979;
+$beige3: lighten(#B0ADA2, 5%);
+$beige25: #D8D3C6;
+$beige2: #f0ebdc;
+$beige: #ebe9e2; 
+*/
