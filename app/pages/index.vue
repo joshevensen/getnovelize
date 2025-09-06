@@ -3,5 +3,4 @@
   <SectionFeatureHome />
   <SectionCTA />
   <SectionTestimonials />
-  <SectionBlogHome />
 </template>

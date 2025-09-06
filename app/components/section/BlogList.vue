@@ -3,11 +3,11 @@
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl text-center">
         <h2
-          class="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl dark:text-white"
+          class="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl"
         >
           From the blog
         </h2>
-        <p class="mt-2 text-lg/8 text-gray-600 dark:text-gray-300">
+        <p class="mt-2 text-lg/8 text-gray-600">
           Learn how to grow your business with our expert advice.
         </p>
       </div>
@@ -23,37 +23,33 @@
             <img
               :src="post.imageUrl"
               alt=""
-              class="aspect-video w-full rounded-2xl bg-gray-100 object-cover sm:aspect-2/1 lg:aspect-3/2 dark:bg-gray-800"
+              class="aspect-video w-full rounded-2xl bg-gray-100 object-cover sm:aspect-2/1 lg:aspect-3/2"
             />
             <div
-              class="absolute inset-0 rounded-2xl inset-ring inset-ring-gray-900/10 dark:inset-ring-white/10"
+              class="absolute inset-0 rounded-2xl inset-ring inset-ring-gray-900/10"
             />
           </div>
           <div class="flex max-w-xl grow flex-col justify-between">
             <div class="mt-8 flex items-center gap-x-4 text-xs">
-              <time
-                :datetime="post.datetime"
-                class="text-gray-500 dark:text-gray-400"
-                >{{ post.date }}</time
-              >
+              <time :datetime="post.datetime" class="text-gray-500">{{
+                post.date
+              }}</time>
               <a
                 :href="post.category.href"
-                class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100 dark:bg-gray-800/60 dark:text-gray-300 dark:hover:bg-gray-800"
+                class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
                 >{{ post.category.title }}</a
               >
             </div>
             <div class="group relative grow">
               <h3
-                class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600 dark:text-white dark:group-hover:text-gray-300"
+                class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600"
               >
                 <a :href="post.href">
                   <span class="absolute inset-0" />
                   {{ post.title }}
                 </a>
               </h3>
-              <p
-                class="mt-5 line-clamp-3 text-sm/6 text-gray-600 dark:text-gray-400"
-              >
+              <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">
                 {{ post.description }}
               </p>
             </div>
@@ -63,16 +59,16 @@
               <img
                 :src="post.author.imageUrl"
                 alt=""
-                class="size-10 rounded-full bg-gray-100 dark:bg-gray-800"
+                class="size-10 rounded-full bg-gray-100"
               />
               <div class="text-sm/6">
-                <p class="font-semibold text-gray-900 dark:text-white">
+                <p class="font-semibold text-gray-900">
                   <a :href="post.author.href">
                     <span class="absolute inset-0" />
                     {{ post.author.name }}
                   </a>
                 </p>
-                <p class="text-gray-600 dark:text-gray-400">
+                <p class="text-gray-600">
                   {{ post.author.role }}
                 </p>
               </div>

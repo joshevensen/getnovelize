@@ -6,16 +6,16 @@
       <article class="mx-auto w-full max-w-2xl lg:mx-0 lg:max-w-lg">
         <time
           :datetime="featuredPost.datetime"
-          class="block text-sm/6 text-gray-600 dark:text-gray-400"
+          class="block text-sm/6 text-gray-600"
           >{{ featuredPost.date }}</time
         >
         <h2
           id="featured-post"
-          class="mt-4 text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl dark:text-white"
+          class="mt-4 text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl"
         >
           {{ featuredPost.title }}
         </h2>
-        <p class="mt-4 text-lg/8 text-gray-600 dark:text-gray-400">
+        <p class="mt-4 text-lg/8 text-gray-600">
           {{ featuredPost.description }}
         </p>
         <div
@@ -24,22 +24,20 @@
           <div class="flex">
             <a
               :href="featuredPost.href"
-              class="text-sm/6 font-semibold text-indigo-600 hover:text-indigo-500 dark:text-indigo-400 dark:hover:text-indigo-300"
+              class="text-sm/6 font-semibold text-indigo-600 hover:text-indigo-500"
               aria-describedby="featured-post"
               >Continue reading <span aria-hidden="true">&rarr;</span></a
             >
           </div>
-          <div
-            class="flex lg:border-t lg:border-gray-900/10 lg:pt-8 dark:lg:border-white/10"
-          >
+          <div class="flex lg:border-t lg:border-gray-900/10 lg:pt-8">
             <a
               :href="featuredPost.author.href"
-              class="flex gap-x-2.5 text-sm/6 font-semibold text-gray-900 dark:text-white"
+              class="flex gap-x-2.5 text-sm/6 font-semibold text-gray-900"
             >
               <img
                 :src="featuredPost.author.imageUrl"
                 alt=""
-                class="size-6 flex-none rounded-full bg-gray-50 dark:bg-gray-800"
+                class="size-6 flex-none rounded-full bg-gray-50"
               />
               {{ featuredPost.author.name }}
             </a>
@@ -47,37 +45,37 @@
         </div>
       </article>
       <div
-        class="mx-auto w-full max-w-2xl border-t border-gray-900/10 pt-12 sm:pt-16 lg:mx-0 lg:max-w-none lg:border-t-0 lg:pt-0 dark:border-white/10"
+        class="mx-auto w-full max-w-2xl border-t border-gray-900/10 pt-12 sm:pt-16 lg:mx-0 lg:max-w-none lg:border-t-0 lg:pt-0"
       >
-        <div class="-my-12 divide-y divide-gray-900/10 dark:divide-white/10">
+        <div class="-my-12 divide-y divide-gray-900/10">
           <article v-for="post in posts" :key="post.id" class="py-12">
             <div class="group relative max-w-xl">
               <time
                 :datetime="post.datetime"
-                class="block text-sm/6 text-gray-600 dark:text-gray-400"
+                class="block text-sm/6 text-gray-600"
                 >{{ post.date }}</time
               >
               <h2
-                class="mt-2 text-lg font-semibold text-gray-900 group-hover:text-gray-600 dark:text-white dark:group-hover:text-gray-300"
+                class="mt-2 text-lg font-semibold text-gray-900 group-hover:text-gray-600"
               >
                 <a :href="post.href">
                   <span class="absolute inset-0" />
                   {{ post.title }}
                 </a>
               </h2>
-              <p class="mt-4 text-sm/6 text-gray-600 dark:text-gray-400">
+              <p class="mt-4 text-sm/6 text-gray-600">
                 {{ post.description }}
               </p>
             </div>
             <div class="mt-4 flex">
               <a
                 :href="post.author.href"
-                class="relative flex gap-x-2.5 text-sm/6 font-semibold text-gray-900 dark:text-white"
+                class="relative flex gap-x-2.5 text-sm/6 font-semibold text-gray-900"
               >
                 <img
                   :src="post.author.imageUrl"
                   alt=""
-                  class="size-6 flex-none rounded-full bg-gray-50 dark:bg-gray-800"
+                  class="size-6 flex-none rounded-full bg-gray-50"
                 />
                 {{ post.author.name }}
               </a>

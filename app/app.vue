@@ -10,11 +10,11 @@
 
 <script setup>
 useHead({
-  title: "Nuxt App",
-  meta: [{ name: "description", content: "Nuxt App" }],
+  title: "Novelize",
+  meta: [{ name: "description", content: "Simple Novel Writing App" }],
   htmlAttrs: {
     lang: "en",
-    class: "bg-white dark:bg-gray-900",
+    class: "bg-white",
   },
 });
 </script>

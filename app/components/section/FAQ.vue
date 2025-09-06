@@ -4,17 +4,15 @@
       <div class="lg:grid lg:grid-cols-12 lg:gap-8">
         <div class="lg:col-span-5">
           <h2
-            class="text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl dark:text-white"
+            class="text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl"
           >
             Frequently asked questions
           </h2>
-          <p
-            class="mt-4 text-base/7 text-pretty text-gray-600 dark:text-gray-400"
-          >
+          <p class="mt-4 text-base/7 text-pretty text-gray-600">
             Can’t find the answer you’re looking for? Reach out to our
             <a
               href="#"
-              class="font-semibold text-indigo-600 hover:text-indigo-500 dark:text-indigo-400 dark:hover:text-indigo-300"
+              class="font-semibold text-indigo-600 hover:text-indigo-500"
               >customer support</a
             >
             team.
@@ -23,12 +21,10 @@
         <div class="mt-10 lg:col-span-7 lg:mt-0">
           <dl class="space-y-10">
             <div v-for="faq in faqs" :key="faq.question">
-              <dt
-                class="text-base/7 font-semibold text-gray-900 dark:text-white"
-              >
+              <dt class="text-base/7 font-semibold text-gray-900">
                 {{ faq.question }}
               </dt>
-              <dd class="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
+              <dd class="mt-2 text-base/7 text-gray-600">
                 {{ faq.answer }}
               </dd>
             </div>

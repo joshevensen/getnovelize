@@ -9,7 +9,7 @@
           v-for="item in navigation.main"
           :key="item.name"
           :href="item.href"
-          class="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+          class="text-gray-600 hover:text-gray-900"
           >{{ item.name }}</a
         >
       </nav>
@@ -18,23 +18,19 @@
           v-for="item in navigation.social"
           :key="item.name"
           :href="item.href"
-          class="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-white"
+          class="text-gray-600 hover:text-gray-800"
         >
           <span class="sr-only">{{ item.name }}</span>
           <component :is="item.icon" class="size-6" aria-hidden="true" />
         </a>
       </div>
-      <p class="mt-10 text-center text-sm/6 text-gray-600 dark:text-gray-400">
+      <p class="mt-10 text-center text-sm/6 text-gray-600">
         &copy; 2024 Your Company, Inc. All rights reserved. &nbsp;
-        <a
-          href="/privacy"
-          class="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-white"
+        <a href="/privacy" class="text-gray-600 hover:text-gray-800"
           >Privacy Policy</a
         >
         &nbsp;
-        <a
-          href="/terms"
-          class="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-white"
+        <a href="/terms" class="text-gray-600 hover:text-gray-800"
           >Terms of Service</a
         >
       </p>

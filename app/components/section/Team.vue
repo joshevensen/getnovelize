@@ -5,11 +5,11 @@
     >
       <div class="mx-auto max-w-2xl lg:mx-0">
         <h2
-          class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl dark:text-white"
+          class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl"
         >
           Our team
         </h2>
-        <p class="mt-6 text-lg/8 text-gray-600 dark:text-gray-400">
+        <p class="mt-6 text-lg/8 text-gray-600">
           We’re a dynamic group of individuals who are passionate about what we
           do and dedicated to delivering the best results for our clients.
         </p>
@@ -20,27 +20,22 @@
       >
         <li v-for="person in people" :key="person.name">
           <img
-            class="aspect-3/2 w-full rounded-2xl object-cover outline-1 -outline-offset-1 outline-black/5 dark:outline-white/10"
+            class="aspect-3/2 w-full rounded-2xl object-cover outline-1 -outline-offset-1 outline-black/5"
             :src="person.imageUrl"
             alt=""
           />
-          <h3
-            class="mt-6 text-lg/8 font-semibold text-gray-900 dark:text-white"
-          >
+          <h3 class="mt-6 text-lg/8 font-semibold text-gray-900">
             {{ person.name }}
           </h3>
-          <p class="text-base/7 text-gray-600 dark:text-gray-400">
+          <p class="text-base/7 text-gray-600">
             {{ person.role }}
           </p>
-          <p class="mt-4 text-base/7 text-gray-600 dark:text-gray-400">
+          <p class="mt-4 text-base/7 text-gray-600">
             {{ person.bio }}
           </p>
           <ul role="list" class="mt-6 flex gap-x-6">
             <li>
-              <a
-                :href="person.xUrl"
-                class="text-gray-400 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-300"
-              >
+              <a :href="person.xUrl" class="text-gray-400 hover:text-gray-500">
                 <span class="sr-only">X</span>
                 <svg
                   class="size-5"
@@ -57,7 +52,7 @@
             <li>
               <a
                 :href="person.linkedinUrl"
-                class="text-gray-400 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-300"
+                class="text-gray-400 hover:text-gray-500"
               >
                 <span class="sr-only">LinkedIn</span>
                 <svg

@@ -2,13 +2,9 @@
   <div class="py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl text-center">
-        <h2
-          class="text-base/7 font-semibold text-indigo-600 dark:text-indigo-400"
-        >
-          Testimonials
-        </h2>
+        <h2 class="text-base/7 font-semibold text-indigo-600">Testimonials</h2>
         <p
-          class="mt-2 text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl dark:text-white"
+          class="mt-2 text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl"
         >
           We have worked with thousands of amazing people
         </p>
@@ -22,23 +18,21 @@
             :key="testimonial.author.handle"
             class="pt-8 sm:inline-block sm:w-full sm:px-4"
           >
-            <figure
-              class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5"
-            >
-              <blockquote class="text-gray-900 dark:text-gray-100">
+            <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6">
+              <blockquote class="text-gray-900">
                 <p>{{ `“${testimonial.body}”` }}</p>
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <img
-                  class="size-10 rounded-full bg-gray-50 dark:bg-gray-800"
+                  class="size-10 rounded-full bg-gray-50"
                   :src="testimonial.author.imageUrl"
                   alt=""
                 />
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">
+                  <div class="font-semibold text-gray-900">
                     {{ testimonial.author.name }}
                   </div>
-                  <div class="text-gray-600 dark:text-gray-400">
+                  <div class="text-gray-600">
                     {{ `@${testimonial.author.handle}` }}
                   </div>
                 </div>

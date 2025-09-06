@@ -3,11 +3,11 @@
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">
         <h2
-          class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl dark:text-white"
+          class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl"
         >
           Stay on top of customer support
         </h2>
-        <p class="mt-6 text-lg/8 text-gray-600 dark:text-gray-300">
+        <p class="mt-6 text-lg/8 text-gray-600">
           Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
           voluptatum cupiditate veritatis in accusamus quisquam.
         </p>
@@ -21,9 +21,9 @@
             :key="feature.name"
             class="flex flex-col"
           >
-            <dt class="text-base/7 font-semibold text-gray-900 dark:text-white">
+            <dt class="text-base/7 font-semibold text-gray-900">
               <div
-                class="mb-6 flex size-10 items-center justify-center rounded-lg bg-indigo-600 dark:bg-indigo-500"
+                class="mb-6 flex size-10 items-center justify-center rounded-lg bg-indigo-600"
               >
                 <component
                   :is="feature.icon"
@@ -33,14 +33,12 @@
               </div>
               {{ feature.name }}
             </dt>
-            <dd
-              class="mt-1 flex flex-auto flex-col text-base/7 text-gray-600 dark:text-gray-400"
-            >
+            <dd class="mt-1 flex flex-auto flex-col text-base/7 text-gray-600">
               <p class="flex-auto">{{ feature.description }}</p>
               <p class="mt-6">
                 <a
                   :href="feature.href"
-                  class="text-sm/6 font-semibold text-indigo-600 hover:text-indigo-500 dark:text-indigo-400 dark:hover:text-indigo-300"
+                  class="text-sm/6 font-semibold text-indigo-600 hover:text-indigo-500"
                   >Learn more <span aria-hidden="true">→</span></a
                 >
               </p>

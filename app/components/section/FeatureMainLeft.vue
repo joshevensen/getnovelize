@@ -6,33 +6,31 @@
       >
         <div class="lg:ml-auto lg:pt-4 lg:pl-4">
           <div class="lg:max-w-lg">
-            <h2
-              class="text-base/7 font-semibold text-indigo-600 dark:text-indigo-400"
-            >
+            <h2 class="text-base/7 font-semibold text-indigo-600">
               Deploy faster
             </h2>
             <p
-              class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl dark:text-white"
+              class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl"
             >
               A better workflow
             </p>
-            <p class="mt-6 text-lg/8 text-gray-600 dark:text-gray-300">
+            <p class="mt-6 text-lg/8 text-gray-600">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
               impedit perferendis suscipit eaque, iste dolor cupiditate
               blanditiis ratione.
             </p>
             <dl
-              class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none dark:text-gray-400"
+              class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none"
             >
               <div
                 v-for="feature in features"
                 :key="feature.name"
                 class="relative pl-9"
               >
-                <dt class="inline font-semibold text-gray-900 dark:text-white">
+                <dt class="inline font-semibold text-gray-900">
                   <component
                     :is="feature.icon"
-                    class="absolute top-1 left-1 size-5 text-indigo-600 dark:text-indigo-400"
+                    class="absolute top-1 left-1 size-5 text-indigo-600"
                     aria-hidden="true"
                   />
                   {{ feature.name }}
