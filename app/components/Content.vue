@@ -1,3 +1,10 @@
+<script setup>
+import {
+  CheckCircleIcon,
+  InformationCircleIcon,
+} from "@heroicons/vue/20/solid";
+</script>
+
 <template>
   <div class="px-6 py-32 lg:px-8">
     <div class="mx-auto max-w-3xl text-base/7 text-gray-700 dark:text-gray-300">
@@ -144,10 +151,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import {
-  CheckCircleIcon,
-  InformationCircleIcon,
-} from "@heroicons/vue/20/solid";
-</script>

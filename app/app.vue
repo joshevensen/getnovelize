@@ -1,13 +1,3 @@
-<template>
-  <div class="font-sans antialiased">
-    <NuxtRouteAnnouncer />
-    <LayoutHeader />
-    <NuxtPage />
-    <SectionNewsletter />
-    <LayoutFooter />
-  </div>
-</template>
-
 <script setup>
 useHead({
   title: "Novelize",
@@ -18,3 +8,13 @@ useHead({
   },
 });
 </script>
+
+<template>
+  <div class="font-sans antialiased">
+    <NuxtRouteAnnouncer />
+    <LayoutHeader />
+    <NuxtPage />
+    <SectionNewsletter />
+    <LayoutFooter />
+  </div>
+</template>

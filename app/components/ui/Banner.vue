@@ -1,3 +1,7 @@
+<script setup>
+import { XMarkIcon } from "@heroicons/vue/20/solid";
+</script>
+
 <template>
   <div
     class="flex items-center gap-x-6 bg-indigo-600 px-6 py-2.5 sm:px-3.5 sm:before:flex-1"
@@ -24,7 +28,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import { XMarkIcon } from "@heroicons/vue/20/solid";
-</script>

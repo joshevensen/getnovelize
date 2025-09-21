@@ -1,3 +1,14 @@
+<script setup>
+import { CheckIcon } from "@heroicons/vue/20/solid";
+
+const includedFeatures = [
+  "Private forum access",
+  "Member resources",
+  "Entry to annual conference",
+  "Official member t-shirt",
+];
+</script>
+
 <template>
   <div class="py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -27,7 +38,7 @@
           </p>
           <div class="mt-10 flex items-center gap-x-4">
             <h4 class="flex-none text-sm/6 font-semibold text-indigo-600">
-              What’s included
+              What's included
             </h4>
             <div class="h-px flex-auto bg-gray-100" />
           </div>
@@ -81,14 +92,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import { CheckIcon } from "@heroicons/vue/20/solid";
-
-const includedFeatures = [
-  "Private forum access",
-  "Member resources",
-  "Entry to annual conference",
-  "Official member t-shirt",
-];
-</script>

@@ -1,3 +1,7 @@
+<script setup>
+import { ChevronDownIcon } from "@heroicons/vue/16/solid";
+</script>
+
 <template>
   <div class="px-6 py-24 sm:py-32 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
@@ -163,7 +167,3 @@
     </form>
   </div>
 </template>
-
-<script setup>
-import { ChevronDownIcon } from "@heroicons/vue/16/solid";
-</script>

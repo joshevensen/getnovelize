@@ -1,3 +1,7 @@
+<script setup>
+import { ChevronRightIcon } from "@heroicons/vue/20/solid";
+</script>
+
 <template>
   <div
     class="mx-auto max-w-7xl px-6 pt-10 pb-24 sm:pb-32 lg:flex lg:px-8 lg:py-40"
@@ -54,7 +58,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import { ChevronRightIcon } from "@heroicons/vue/20/solid";
-</script>

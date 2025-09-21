@@ -1,3 +1,31 @@
+<script setup>
+import { InboxIcon, TrashIcon, UsersIcon } from "@heroicons/vue/24/outline";
+
+const features = [
+  {
+    name: "Unlimited inboxes",
+    description:
+      "Non quo aperiam repellendus quas est est. Eos aut dolore aut ut sit nesciunt. Ex tempora quia. Sit nobis consequatur dolores incidunt.",
+    href: "#",
+    icon: InboxIcon,
+  },
+  {
+    name: "Manage team members",
+    description:
+      "Vero eum voluptatem aliquid nostrum voluptatem. Vitae esse natus. Earum nihil deserunt eos quasi cupiditate. A inventore et molestiae natus.",
+    href: "#",
+    icon: UsersIcon,
+  },
+  {
+    name: "Spam report",
+    description:
+      "Et quod quaerat dolorem quaerat architecto aliquam accusantium. Ex adipisci et doloremque autem quia quam. Quis eos molestiae at iure impedit.",
+    href: "#",
+    icon: TrashIcon,
+  },
+];
+</script>
+
 <template>
   <div class="py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -49,31 +77,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import { InboxIcon, TrashIcon, UsersIcon } from "@heroicons/vue/24/outline";
-
-const features = [
-  {
-    name: "Unlimited inboxes",
-    description:
-      "Non quo aperiam repellendus quas est est. Eos aut dolore aut ut sit nesciunt. Ex tempora quia. Sit nobis consequatur dolores incidunt.",
-    href: "#",
-    icon: InboxIcon,
-  },
-  {
-    name: "Manage team members",
-    description:
-      "Vero eum voluptatem aliquid nostrum voluptatem. Vitae esse natus. Earum nihil deserunt eos quasi cupiditate. A inventore et molestiae natus.",
-    href: "#",
-    icon: UsersIcon,
-  },
-  {
-    name: "Spam report",
-    description:
-      "Et quod quaerat dolorem quaerat architecto aliquam accusantium. Ex adipisci et doloremque autem quia quam. Quis eos molestiae at iure impedit.",
-    href: "#",
-    icon: TrashIcon,
-  },
-];
-</script>

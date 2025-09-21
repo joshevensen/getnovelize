@@ -1,3 +1,7 @@
+<script setup>
+import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/vue/24/outline";
+</script>
+
 <template>
   <div class="relative isolate overflow-hidden py-16 sm:py-24 lg:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -62,7 +66,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/vue/24/outline";
-</script>
