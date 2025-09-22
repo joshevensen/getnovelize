@@ -1,5 +1,5 @@
 <script setup>
-import { CheckIcon } from "@heroicons/vue/20/solid";
+import Icon from "~/components/ui/Icon.vue";
 
 const includedFeatures = [
   "Private forum access",
@@ -51,7 +51,9 @@ const includedFeatures = [
               :key="feature"
               class="flex gap-x-3"
             >
-              <CheckIcon
+              <Icon
+                name="check"
+                :size="20"
                 class="h-6 w-5 flex-none text-indigo-600"
                 aria-hidden="true"
               />

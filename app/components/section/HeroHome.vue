@@ -1,5 +1,5 @@
 <script setup>
-import { ChevronRightIcon } from "@heroicons/vue/20/solid";
+import Icon from "~/components/ui/Icon.vue";
 </script>
 
 <template>
@@ -17,7 +17,12 @@ import { ChevronRightIcon } from "@heroicons/vue/20/solid";
             class="inline-flex items-center space-x-2 text-sm/6 font-medium text-gray-600"
           >
             <span>Just shipped v1.0</span>
-            <ChevronRightIcon class="size-5 text-gray-400" aria-hidden="true" />
+            <Icon
+              name="chevron-right"
+              :size="20"
+              class="size-5 text-gray-400"
+              aria-hidden="true"
+            />
           </span>
         </a>
       </div>

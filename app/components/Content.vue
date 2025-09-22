@@ -1,8 +1,5 @@
 <script setup>
-import {
-  CheckCircleIcon,
-  InformationCircleIcon,
-} from "@heroicons/vue/20/solid";
+import Icon from "~/components/ui/Icon.vue";
 </script>
 
 <template>
@@ -31,7 +28,9 @@ import {
         </p>
         <ul role="list" class="mt-8 max-w-xl space-y-8 text-gray-600">
           <li class="flex gap-x-3">
-            <CheckCircleIcon
+            <Icon
+              name="check"
+              :size="20"
               class="mt-1 size-5 flex-none text-indigo-600"
               aria-hidden="true"
             />
@@ -43,7 +42,9 @@ import {
             >
           </li>
           <li class="flex gap-x-3">
-            <CheckCircleIcon
+            <Icon
+              name="check"
+              :size="20"
               class="mt-1 size-5 flex-none text-indigo-600"
               aria-hidden="true"
             />
@@ -54,7 +55,9 @@ import {
             >
           </li>
           <li class="flex gap-x-3">
-            <CheckCircleIcon
+            <Icon
+              name="check"
+              :size="20"
               class="mt-1 size-5 flex-none text-indigo-600"
               aria-hidden="true"
             />
@@ -120,7 +123,9 @@ import {
           alt=""
         />
         <figcaption class="mt-4 flex gap-x-2 text-sm/6 text-gray-500">
-          <InformationCircleIcon
+          <Icon
+            name="info-circle"
+            :size="20"
             class="mt-0.5 size-5 flex-none text-gray-300"
             aria-hidden="true"
           />

@@ -1,5 +1,5 @@
 <script setup>
-import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/vue/24/outline";
+import Icon from "~/components/ui/Icon.vue";
 </script>
 
 <template>
@@ -38,7 +38,9 @@ import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/vue/24/outline";
         <dl class="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
           <div class="flex flex-col items-start">
             <div class="rounded-md bg-white/50 p-2 ring-1 ring-gray-200">
-              <CalendarDaysIcon
+              <Icon
+                name="calendar"
+                :size="24"
                 class="size-6 text-gray-600"
                 aria-hidden="true"
               />
@@ -53,7 +55,12 @@ import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/vue/24/outline";
           </div>
           <div class="flex flex-col items-start">
             <div class="rounded-md bg-white/50 p-2 ring-1 ring-gray-200">
-              <HandRaisedIcon class="size-6 text-gray-600" aria-hidden="true" />
+              <Icon
+                name="hand-stop"
+                :size="24"
+                class="size-6 text-gray-600"
+                aria-hidden="true"
+              />
             </div>
             <dt class="mt-4 text-base font-semibold text-gray-900">No spam</dt>
             <dd class="mt-2 text-base/7 text-gray-600">

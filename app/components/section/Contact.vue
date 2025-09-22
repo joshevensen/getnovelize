@@ -1,5 +1,5 @@
 <script setup>
-import { ChevronDownIcon } from "@heroicons/vue/16/solid";
+import Icon from "~/components/ui/Icon.vue";
 </script>
 
 <template>
@@ -100,7 +100,9 @@ import { ChevronDownIcon } from "@heroicons/vue/16/solid";
                   <option>CA</option>
                   <option>EU</option>
                 </select>
-                <ChevronDownIcon
+                <Icon
+                  name="chevron-down"
+                  :size="16"
                   class="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4"
                   aria-hidden="true"
                 />

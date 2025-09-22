@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import { Dialog, DialogPanel } from "@headlessui/vue";
-import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
+import Icon from "~/components/ui/Icon.vue";
 
 const { data: companyData } = await useAsyncData("company", () =>
   queryCollection("company").first()
@@ -57,7 +57,7 @@ const mobileMenuOpen = ref(false);
           @click="mobileMenuOpen = true"
         >
           <span class="sr-only">Open main menu</span>
-          <Bars3Icon class="size-6" aria-hidden="true" />
+          <Icon name="menu-2" :size="24" class="size-6" aria-hidden="true" />
         </button>
       </div>
     </nav>
@@ -90,7 +90,7 @@ const mobileMenuOpen = ref(false);
             @click="mobileMenuOpen = false"
           >
             <span class="sr-only">Close menu</span>
-            <XMarkIcon class="size-6" aria-hidden="true" />
+            <Icon name="x" :size="24" class="size-6" aria-hidden="true" />
           </button>
         </div>
         <div class="mt-6 flow-root">

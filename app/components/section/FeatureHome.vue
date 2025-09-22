@@ -1,5 +1,5 @@
 <script setup>
-import { InboxIcon, TrashIcon, UsersIcon } from "@heroicons/vue/24/outline";
+import Icon from "~/components/ui/Icon.vue";
 
 const features = [
   {
@@ -7,21 +7,21 @@ const features = [
     description:
       "Non quo aperiam repellendus quas est est. Eos aut dolore aut ut sit nesciunt. Ex tempora quia. Sit nobis consequatur dolores incidunt.",
     href: "#",
-    icon: InboxIcon,
+    icon: "mail",
   },
   {
     name: "Manage team members",
     description:
       "Vero eum voluptatem aliquid nostrum voluptatem. Vitae esse natus. Earum nihil deserunt eos quasi cupiditate. A inventore et molestiae natus.",
     href: "#",
-    icon: UsersIcon,
+    icon: "users",
   },
   {
     name: "Spam report",
     description:
       "Et quod quaerat dolorem quaerat architecto aliquam accusantium. Ex adipisci et doloremque autem quia quam. Quis eos molestiae at iure impedit.",
     href: "#",
-    icon: TrashIcon,
+    icon: "trash",
   },
 ];
 </script>
@@ -53,8 +53,9 @@ const features = [
               <div
                 class="mb-6 flex size-10 items-center justify-center rounded-lg bg-indigo-600"
               >
-                <component
-                  :is="feature.icon"
+                <Icon
+                  :name="feature.icon"
+                  :size="24"
                   class="size-6 text-white"
                   aria-hidden="true"
                 />

@@ -1,5 +1,4 @@
 <script setup>
-import { computed } from "vue";
 import Icon from "~/components/ui/Icon.vue";
 
 const { data: companyData } = await useAsyncData("company-footer", () =>
