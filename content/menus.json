@@ -1,0 +1,70 @@
+{
+  "header": [
+    {
+      "name": "Features",
+      "href": "/features"
+    },
+    {
+      "name": "Pricing",
+      "href": "/pricing"
+    },
+    {
+      "name": "Blog",
+      "href": "/blog"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Features",
+      "href": "/features"
+    },
+    {
+      "name": "Pricing",
+      "href": "/pricing"
+    },
+    {
+      "name": "Blog",
+      "href": "/blog"
+    },
+    {
+      "name": "About",
+      "href": "/about"
+    },
+    {
+      "name": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "social": [
+    {
+      "name": "Tumblr",
+      "href": "#",
+      "icon": "brand-tumblr"
+    },
+    {
+      "name": "Reddit",
+      "href": "#",
+      "icon": "brand-reddit"
+    },
+    {
+      "name": "Twitter/X",
+      "href": "#",
+      "icon": "brand-twitter"
+    },
+    {
+      "name": "YouTube",
+      "href": "#",
+      "icon": "brand-youtube"
+    }
+  ],
+  "copyright": [
+    {
+      "name": "Privacy Policy",
+      "href": "/privacy"
+    },
+    {
+      "name": "Terms of Service",
+      "href": "/terms"
+    }
+  ]
+}

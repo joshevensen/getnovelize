@@ -3,11 +3,12 @@ import { ref } from "vue";
 import { Dialog, DialogPanel } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
-const navigation = [
-  { name: "Features", href: "/features" },
-  { name: "Pricing", href: "/pricing" },
-  { name: "Blog", href: "/blog" },
-];
+const { data: companyData } = await useAsyncData("company", () =>
+  queryCollection("company").first()
+);
+const { data: menus } = await useAsyncData("menus", () =>
+  queryCollection("menus").first()
+);
 
 const mobileMenuOpen = ref(false);
 </script>
@@ -20,7 +21,7 @@ const mobileMenuOpen = ref(false);
     >
       <div class="flex lg:flex-1">
         <a href="/" class="-m-1.5 p-1.5">
-          <span class="sr-only">Your Company</span>
+          <span class="sr-only">{{ companyData.name }}</span>
           <img
             class="h-8 w-auto"
             src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
@@ -30,7 +31,7 @@ const mobileMenuOpen = ref(false);
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
         <a
-          v-for="item in navigation"
+          v-for="item in menus.header"
           :key="item.name"
           :href="item.href"
           class="text-sm/6 font-semibold text-gray-900"
@@ -71,7 +72,7 @@ const mobileMenuOpen = ref(false);
       >
         <div class="flex items-center gap-x-6">
           <a href="/" class="-m-1.5 p-1.5">
-            <span class="sr-only">Your Company</span>
+            <span class="sr-only">{{ companyData.name }}</span>
             <img
               class="h-8 w-auto"
               src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
@@ -96,7 +97,7 @@ const mobileMenuOpen = ref(false);
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
               <a
-                v-for="item in navigation"
+                v-for="item in menus.header"
                 :key="item.name"
                 :href="item.href"
                 class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
