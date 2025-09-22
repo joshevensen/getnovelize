@@ -1,6 +1,6 @@
 <template>
   <SectionHeroPage />
   <SectionAbout />
-  <SectionTeam />
   <SectionCTA />
+  <SectionTeam />
 </template>

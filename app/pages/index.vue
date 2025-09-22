@@ -1,6 +1,7 @@
 <template>
   <SectionHeroHome />
+  <SectionTestimonials />
   <SectionFeatureHome />
   <SectionCTA />
-  <SectionTestimonials />
+  <SectionBlogHome />
 </template>
