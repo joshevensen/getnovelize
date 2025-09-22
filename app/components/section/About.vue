@@ -1,52 +1,32 @@
-<script setup>
-const content = {
-  badge: "About us",
-  title: "On a mission to empower remote teams",
-  description:
-    "Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas.",
+<script setup lang="ts">
+interface AboutContent {
+  badge: string;
+  title: string;
+  description: string;
   mission: {
-    title: "Our mission",
-    description1:
-      "Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.",
-    description2:
-      "Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.",
-  },
-  images: [
-    {
-      src: "https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?&auto=format&fit=crop&crop=center&w=560&h=560&q=90",
-      alt: "",
-      class:
-        "aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1557804506-669a67965ba0?&auto=format&fit=crop&crop=left&w=560&h=560&q=90",
-      alt: "",
-      class:
-        "-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-40",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?&auto=format&fit=crop&crop=left&w=560&h=560&q=90",
-      alt: "",
-      class:
-        "aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1598257006458-087169a1f08d?&auto=format&fit=crop&crop=center&w=560&h=560&q=90",
-      alt: "",
-      class:
-        "-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-40",
-    },
-  ],
+    title: string;
+    description1: string;
+    description2: string;
+  };
+  images: Array<{
+    src: string;
+    alt: string;
+    class: string;
+  }>;
   stats: {
-    title: "The numbers",
-    items: [
-      { label: "Raised", value: "$150M" },
-      { label: "Companies", value: "30K" },
-      { label: "Deals Closed", value: "1.5M" },
-      { label: "Leads Generated", value: "200M" },
-    ],
-  },
-};
+    title: string;
+    items: Array<{
+      label: string;
+      value: string;
+    }>;
+  };
+}
+
+interface Props {
+  content: AboutContent;
+}
+
+defineProps<Props>();
 </script>
 
 <template>

@@ -1,5 +1,3 @@
 <template>
-  <SectionHeroPage />
-  <SectionContent />
-  <SectionCTA />
+  <h1>Blog Post</h1>
 </template>

@@ -58,25 +58,25 @@ const hasFeaturedPost = computed(
         class="mx-auto w-full max-w-2xl lg:mx-0 lg:max-w-lg"
       >
         <time
-          :datetime="content.featuredPost.datetime"
+          :datetime="content.featuredPost?.datetime"
           class="block text-sm/6 text-gray-600"
-          >{{ content.featuredPost.date }}</time
+          >{{ content.featuredPost?.date }}</time
         >
         <h2
           id="featured-post"
           class="mt-4 text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl"
         >
-          {{ content.featuredPost.title }}
+          {{ content.featuredPost?.title }}
         </h2>
         <p class="mt-4 text-lg/8 text-gray-600">
-          {{ content.featuredPost.description }}
+          {{ content.featuredPost?.description }}
         </p>
         <div
           class="mt-4 flex flex-col justify-between gap-6 sm:mt-8 sm:flex-row-reverse sm:gap-8 lg:mt-4 lg:flex-col"
         >
           <div class="flex">
             <a
-              :href="content.featuredPost.href"
+              :href="content.featuredPost?.href"
               class="text-sm/6 font-semibold text-indigo-600 hover:text-indigo-500"
               aria-describedby="featured-post"
               >Continue reading <span aria-hidden="true">&rarr;</span></a
@@ -84,15 +84,15 @@ const hasFeaturedPost = computed(
           </div>
           <div class="flex lg:border-t lg:border-gray-900/10 lg:pt-8">
             <a
-              :href="content.featuredPost.author.href"
+              :href="content.featuredPost?.author.href"
               class="flex gap-x-2.5 text-sm/6 font-semibold text-gray-900"
             >
               <img
-                :src="content.featuredPost.author.imageUrl"
+                :src="content.featuredPost?.author.imageUrl"
                 alt=""
                 class="size-6 flex-none rounded-full bg-gray-50"
               />
-              {{ content.featuredPost.author.name }}
+              {{ content.featuredPost?.author.name }}
             </a>
           </div>
         </div>

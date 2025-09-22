@@ -1,5 +1,26 @@
-<script setup>
+<script setup lang="ts">
 import Icon from "~/components/ui/Icon.vue";
+
+interface ContactContent {
+  title: string;
+  description: string;
+  form: {
+    fields: Array<{
+      name: string;
+      label: string;
+      type: string;
+      required?: boolean;
+      autocomplete?: string;
+    }>;
+    submitText: string;
+  };
+}
+
+interface Props {
+  content: ContactContent;
+}
+
+defineProps<Props>();
 </script>
 
 <template>
@@ -8,10 +29,10 @@ import Icon from "~/components/ui/Icon.vue";
       <h2
         class="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl"
       >
-        Contact sales
+        {{ content.title }}
       </h2>
       <p class="mt-2 text-lg/8 text-gray-600">
-        Aute magna irure deserunt veniam aliqua magna enim voluptate.
+        {{ content.description }}
       </p>
     </div>
     <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">

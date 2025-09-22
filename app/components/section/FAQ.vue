@@ -1,26 +1,18 @@
-<script setup>
-const faqs = [
-  {
-    question: "How do you make holy water?",
-    answer:
-      "You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-  {
-    question: "What's the best thing about Switzerland?",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-  {
-    question: "What do you call someone with no body and no nose?",
-    answer:
-      "Nobody knows. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-  {
-    question: "Why do you never see elephants hiding in trees?",
-    answer:
-      "Because they're so good at it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-];
+<script setup lang="ts">
+interface FAQContent {
+  title: string;
+  description: string;
+  faqs: Array<{
+    question: string;
+    answer: string;
+  }>;
+}
+
+interface Props {
+  content: FAQContent;
+}
+
+defineProps<Props>();
 </script>
 
 <template>
@@ -31,21 +23,15 @@ const faqs = [
           <h2
             class="text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl"
           >
-            Frequently asked questions
+            {{ content.title }}
           </h2>
           <p class="mt-4 text-base/7 text-pretty text-gray-600">
-            Can't find the answer you're looking for? Reach out to our
-            <a
-              href="#"
-              class="font-semibold text-indigo-600 hover:text-indigo-500"
-              >customer support</a
-            >
-            team.
+            {{ content.description }}
           </p>
         </div>
         <div class="mt-10 lg:col-span-7 lg:mt-0">
           <dl class="space-y-10">
-            <div v-for="faq in faqs" :key="faq.question">
+            <div v-for="faq in content.faqs" :key="faq.question">
               <dt class="text-base/7 font-semibold text-gray-900">
                 {{ faq.question }}
               </dt>

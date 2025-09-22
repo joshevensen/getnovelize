@@ -1,29 +1,25 @@
-<script setup>
+<script setup lang="ts">
 import Icon from "~/components/ui/Icon.vue";
 
-const content = {
-  title: "Subscribe to our newsletter",
-  description:
-    "Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing velit quis. Duis tempor incididunt dolore.",
+interface NewsletterContent {
+  title: string;
+  description: string;
   form: {
-    placeholder: "Enter your email",
-    buttonText: "Subscribe",
-  },
-  features: [
-    {
-      icon: "calendar",
-      title: "Weekly articles",
-      description:
-        "Non laboris consequat cupidatat laborum magna. Eiusmod non irure cupidatat duis commodo amet.",
-    },
-    {
-      icon: "hand-stop",
-      title: "No spam",
-      description:
-        "Officia excepteur ullamco ut sint duis proident non adipisicing. Voluptate incididunt anim.",
-    },
-  ],
-};
+    placeholder: string;
+    buttonText: string;
+  };
+  features: Array<{
+    icon: string;
+    title: string;
+    description: string;
+  }>;
+}
+
+interface Props {
+  content: NewsletterContent;
+}
+
+defineProps<Props>();
 </script>
 
 <template>
@@ -46,7 +42,7 @@ const content = {
               name="email"
               type="email"
               autocomplete="email"
-              required=""
+              required
               class="min-w-0 flex-auto rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
               :placeholder="content.form.placeholder"
             />

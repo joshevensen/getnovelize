@@ -1,21 +1,19 @@
-<script setup>
-const content = {
-  title: "Boost your productivity. Start using our app today.",
-  description:
-    "Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur commodo do ea.",
-  buttons: [
-    {
-      text: "Get started",
-      href: "#",
-      primary: true,
-    },
-    {
-      text: "Learn more",
-      href: "#",
-      primary: false,
-    },
-  ],
-};
+<script setup lang="ts">
+interface CTAContent {
+  title: string;
+  description?: string;
+  buttons: Array<{
+    text: string;
+    href: string;
+    primary: boolean;
+  }>;
+}
+
+interface Props {
+  content: CTAContent;
+}
+
+defineProps<Props>();
 </script>
 
 <template>

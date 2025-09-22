@@ -50,16 +50,16 @@ const hasImage = computed(() => props.content.image && isHomeVariant.value);
     <div class="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:pt-8">
       <!-- Announcement Banner -->
       <div v-if="hasAnnouncement" class="mt-24 sm:mt-32 lg:mt-16">
-        <a :href="content.announcement.href" class="inline-flex space-x-6">
+        <a :href="content.announcement?.href" class="inline-flex space-x-6">
           <span
             class="rounded-full bg-indigo-50 px-3 py-1 text-sm/6 font-semibold text-indigo-600 ring-1 ring-indigo-600/20 ring-inset"
           >
-            {{ content.announcement.badge }}
+            {{ content.announcement?.badge }}
           </span>
           <span
             class="inline-flex items-center space-x-2 text-sm/6 font-medium text-gray-600"
           >
-            <span>{{ content.announcement.text }}</span>
+            <span>{{ content.announcement?.text }}</span>
             <Icon
               name="chevron-right"
               :size="20"
@@ -107,10 +107,10 @@ const hasImage = computed(() => props.content.image && isHomeVariant.value);
     >
       <div class="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
         <img
-          :src="content.image.src"
-          :alt="content.image.alt"
-          :width="content.image.width"
-          :height="content.image.height"
+          :src="content.image?.src"
+          :alt="content.image?.alt"
+          :width="content.image?.width"
+          :height="content.image?.height"
           class="w-304 rounded-md bg-gray-50 shadow-xl ring-1 ring-gray-900/10"
         />
       </div>
