@@ -1,6 +1,4 @@
 <script setup>
-import { computed, defineAsyncComponent } from "vue";
-
 const props = defineProps({
   name: {
     type: String,
@@ -29,49 +27,33 @@ const props = defineProps({
   },
 });
 
-const IconComponent = computed(() => {
-  if (!props.name) return null;
-
-  // Convert kebab-case to PascalCase (e.g., 'user-plus' -> 'UserPlus')
-  const iconName = props.name
-    .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join("");
-
-  // Create the full component name
-  const componentName = `Icon${iconName}`;
-
-  // Dynamically import the icon component
-  return defineAsyncComponent(() =>
-    import(`@tabler/icons-vue`)
-      .then((module) => ({
-        default: module[componentName] || module.IconQuestionMark,
-      }))
-      .catch(() => {
-        // Fallback to a question mark icon if the icon doesn't exist
-        return import(`@tabler/icons-vue`).then((module) => ({
-          default: module.IconQuestionMark,
-        }));
-      })
-  );
-});
-
 const iconStyle = computed(() => ({
   color: props.color,
   width: typeof props.size === "number" ? `${props.size}px` : props.size,
   height: typeof props.size === "number" ? `${props.size}px` : props.size,
 }));
+
+const iconClass = computed(() => {
+  return `inline-block ${props.class || ""}`.trim();
+});
 </script>
 
 <template>
-  <component
-    v-if="IconComponent"
-    :is="IconComponent"
-    :size="size"
-    :color="color"
-    :stroke="stroke"
-    :class="class"
+  <svg
+    :class="iconClass"
+    :width="size"
+    :height="size"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    :stroke-width="stroke"
+    stroke-linecap="round"
+    stroke-linejoin="round"
     :style="iconStyle"
-  />
-  <span v-else class="text-red-500 text-sm"> Icon "{{ name }}" not found </span>
+  >
+    <circle cx="12" cy="12" r="10" />
+    <text x="12" y="16" text-anchor="middle" font-size="8" fill="currentColor">
+      {{ name.slice(0, 2) }}
+    </text>
+  </svg>
 </template>

@@ -1,3 +1,9 @@
+<script lang="ts" setup>
+const { data: page } = await useAsyncData("terms-content", () => {
+  return queryCollection("legal").path("/legal/terms").first();
+});
+</script>
+
 <template>
-  <h1>Terms of Service</h1>
+  <ContentRenderer v-if="page" :value="page" />
 </template>

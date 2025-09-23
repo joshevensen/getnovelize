@@ -92,6 +92,10 @@ export default defineContentConfig({
         }),
       }),
     }),
+    legal: defineCollection({
+      type: "page",
+      source: "legal/**/*.md",
+    }),
     pages: defineCollection({
       type: "data",
       source: "pages/**/*.json",

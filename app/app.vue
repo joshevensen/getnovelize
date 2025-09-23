@@ -14,7 +14,6 @@ useHead({
     <NuxtRouteAnnouncer />
     <LayoutHeader />
     <NuxtPage />
-    <SectionNewsletter />
     <LayoutFooter />
   </div>
 </template>
