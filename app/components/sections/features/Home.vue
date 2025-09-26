@@ -1,25 +1,25 @@
 <script setup>
 const features = [
   {
-    name: "Push to deploy",
+    name: "Write Without Fear",
     description:
-      "Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu.",
+      "Your stories are private by default, and we'll never censor your work. Every word you write is saved automatically and backed up securely, so you don't have to worry about losing progress. Write freely, knowing your stories belong to you alone until you decide to share them.",
     href: "#",
-    icon: "IconCloudUp",
+    icon: "IconShield",
   },
   {
-    name: "SSL certificates",
+    name: "Characters & Worldbuilding",
     description:
-      "Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.",
+      "Keep all your characters, research, and worldbuilding notes right where you write. No more scattered documents or lost details — everything is organized in one place. The Notebook makes it easy to track relationships, lore, and story rules while staying in your flow.",
     href: "#",
-    icon: "IconLock",
+    icon: "IconBook",
   },
   {
-    name: "Simple queues",
+    name: "Write Anywhere, Distraction-Free",
     description:
-      "Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod.",
+      "Write on your laptop, tablet, or phone — Novelize works wherever inspiration strikes. The editor is clean, uncluttered, and customizable with dark or light mode. Focus on your words, not on menus or distractions.",
     href: "#",
-    icon: "IconTrendingUp2",
+    icon: "IconDeviceMobile",
   },
 ];
 </script>
@@ -30,17 +30,17 @@ const features = [
       <h2
         class="text-base/7 font-semibold text-orange-600 dark:text-orange-400"
       >
-        Deploy faster
+        For storytellers
       </h2>
       <p
         class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance dark:text-white"
       >
-        Everything you need to deploy your app
+        Everything you need to write your story
       </p>
       <p class="mt-6 text-lg/8 text-gray-600 dark:text-gray-300">
-        Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-        Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In
-        mi viverra elit nunc.
+        A clean, focused writing space built for storytellers who want to create
+        without distraction. Keep your notes close, protect your words, and turn
+        your ideas into stories.
       </p>
     </div>
     <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

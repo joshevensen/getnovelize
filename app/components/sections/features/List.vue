@@ -1,42 +1,34 @@
 <script setup>
 const features = [
   {
-    name: "Invite team members",
+    name: "Organize by Scenes",
     description:
-      "Rerum repellat labore necessitatibus reprehenderit molestiae praesentium.",
+      "Break your story into smaller pieces you can rearrange, expand, or edit on their own. Perfect for non-linear writing and episodic storytelling.",
   },
   {
-    name: "List view",
+    name: "Autosave & Backups",
     description:
-      "Corporis asperiores ea nulla temporibus asperiores non tempore assumenda aut.",
+      "Every keystroke is saved automatically. Even if your computer crashes or you lose connection, your words are safe and waiting when you return.",
   },
   {
-    name: "Keyboard shortcuts",
+    name: "Multiple Modes",
     description:
-      "In sit qui aliquid deleniti et. Ad nobis sunt omnis. Quo sapiente dicta laboriosam.",
+      "Switch between outline, write, and organize views. Each mode gives you just the tools you need for that stage of the process.",
   },
   {
-    name: "Calendars",
+    name: "Dark/Light Themes",
     description:
-      "Sed rerum sunt dignissimos ullam. Iusto iure occaecati voluptate eligendi.",
+      "Write comfortably, day or night. Choose the theme that fits your environment and keep your eyes relaxed.",
   },
   {
-    name: "Notifications",
+    name: "Grammar Plugin Support",
     description:
-      "Quos inventore harum enim nesciunt. Aut repellat rerum omnis adipisci.",
+      "Connect Novelize with tools like Grammarly or ProWritingAid for real-time editing feedback while you write.",
   },
   {
-    name: "Boards",
+    name: "Export Anytime",
     description:
-      "Quae sit sunt excepturi fugit veniam voluptatem ipsum commodi.",
-  },
-  {
-    name: "Reporting",
-    description: "Eos laudantium repellat sed architecto earum unde incidunt.",
-  },
-  {
-    name: "Mobile app",
-    description: "Nulla est saepe accusamus nostrum est est fugit omnis.",
+      "Download your story as a Word document whenever you want. Simple, fast, and yours to keep.",
   },
 ];
 </script>
@@ -50,17 +42,16 @@ const features = [
         <h2
           class="text-base/7 font-semibold text-orange-600 dark:text-orange-400"
         >
-          Everything you need
+          Supporting Features
         </h2>
         <p
           class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl dark:text-white"
         >
-          All-in-one platform
+          More ways Novelize helps you write
         </p>
         <p class="mt-6 text-base/7 text-gray-700 dark:text-gray-300">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-          impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis
-          ratione.
+          Alongside the core features, Novelize includes a set of simple but
+          powerful tools that keep your writing process smooth.
         </p>
       </div>
       <dl

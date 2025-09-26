@@ -19,7 +19,7 @@
             variant="inverted"
             size="lg"
           >
-            Start your free 30-day trial
+            Start your free 17-day trial
           </UiButton>
         </div>
       </div>

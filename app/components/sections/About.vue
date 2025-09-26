@@ -1,3 +1,5 @@
+<script setup></script>
+
 <template>
   <UiContainer>
     <div class="mx-auto max-w-2xl lg:max-w-7xl">
@@ -5,17 +7,23 @@
         <p
           class="text-base/7 font-semibold text-orange-600 dark:text-orange-400"
         >
-          About us
+          Our Story
         </p>
         <h1
           class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl dark:text-white"
         >
-          On a mission to empower remote teams
+          Built by a developer, shaped by writers
         </h1>
         <p class="mt-6 text-xl/8 text-balance text-gray-700 dark:text-gray-300">
-          Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At
-          arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae
-          feugiat egestas.
+          Scrivener had a 300+ page manual. Even as a software engineer, I found
+          it overwhelming. So I built my own tool — something simple, focused,
+          and easy to use. My wife liked it so much she suggested I share it
+          with others.
+        </p>
+        <p class="mt-6 text-lg/8 text-gray-700 dark:text-gray-300">
+          I opened it up in 2016, and Novelize has been a steady side business
+          ever since. Nearly a decade later, my two oldest children have joined
+          me to help turn Novelize into something bigger than it's ever been.
         </p>
       </div>
       <section
@@ -25,22 +33,31 @@
           <h2
             class="text-2xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
           >
-            Our mission
+            What We Believe
           </h2>
           <p class="mt-6 text-base/7 text-gray-600 dark:text-gray-400">
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
-            enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
-            praesent donec est. Odio penatibus risus viverra tellus varius sit
-            neque erat velit. Faucibus commodo massa rhoncus, volutpat.
-            Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-            sed turpis id.
+            We believe writers deserve a simple tool that:
           </p>
+          <ul
+            class="mt-4 space-y-2 text-base/7 text-gray-600 dark:text-gray-400"
+          >
+            <li class="flex items-start">
+              <span class="mr-2 text-orange-600 dark:text-orange-400">•</span>
+              Gives them just enough features.
+            </li>
+            <li class="flex items-start">
+              <span class="mr-2 text-orange-600 dark:text-orange-400">•</span>
+              Stays out of the way.
+            </li>
+            <li class="flex items-start">
+              <span class="mr-2 text-orange-600 dark:text-orange-400">•</span>
+              Keeps their writing safe and secure.
+            </li>
+          </ul>
           <p class="mt-8 text-base/7 text-gray-600 dark:text-gray-400">
-            Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-            odio id et. Id blandit molestie auctor fermentum dignissim. Lacus
-            diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices
-            hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem
-            vel integer orci.
+            We're not trying to be everything for everyone. Novelize won't
+            replace publishing tools — you only use those occasionally. What we
+            do is focus on the one thing you do every day: write.
           </p>
         </div>
         <div class="pt-16 lg:row-span-2 lg:-mr-16 xl:mr-auto">
@@ -87,52 +104,54 @@
         </div>
         <div class="max-lg:mt-16 lg:col-span-1">
           <p class="text-base/7 font-semibold text-gray-500 dark:text-gray-400">
-            The numbers
+            The Numbers
           </p>
           <hr class="mt-6 border-t border-gray-200 dark:border-gray-700" />
           <dl class="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
             <div
               class="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4 dark:border-gray-700"
             >
-              <dt class="text-sm/6 text-gray-600 dark:text-gray-400">Raised</dt>
+              <dt class="text-sm/6 text-gray-600 dark:text-gray-400">
+                Novels Started
+              </dt>
               <dd
                 class="order-first text-6xl font-semibold tracking-tight text-gray-900 dark:text-white"
               >
-                $<span>150</span>M
+                <span>12,300</span>+
               </dd>
             </div>
             <div
               class="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4 dark:border-gray-700"
             >
               <dt class="text-sm/6 text-gray-600 dark:text-gray-400">
-                Companies
+                Notebook Entries
               </dt>
               <dd
                 class="order-first text-6xl font-semibold tracking-tight text-gray-900 dark:text-white"
               >
-                <span>30</span>K
+                <span>39,000</span>+
               </dd>
             </div>
             <div
               class="flex flex-col gap-y-2 max-sm:border-b max-sm:border-dotted max-sm:border-gray-200 max-sm:pb-4 dark:max-sm:border-gray-700"
             >
               <dt class="text-sm/6 text-gray-600 dark:text-gray-400">
-                Deals Closed
+                Active Users
               </dt>
               <dd
                 class="order-first text-6xl font-semibold tracking-tight text-gray-900 dark:text-white"
               >
-                <span>1.5</span>M
+                <span>6,000</span>+
               </dd>
             </div>
             <div class="flex flex-col gap-y-2">
               <dt class="text-sm/6 text-gray-600 dark:text-gray-400">
-                Leads Generated
+                Years Running
               </dt>
               <dd
                 class="order-first text-6xl font-semibold tracking-tight text-gray-900 dark:text-white"
               >
-                <span>200</span>M
+                <span>8</span>+
               </dd>
             </div>
           </dl>

@@ -1,29 +1,29 @@
 <script setup>
 const people = [
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
+    name: "Josh",
+    role: "Founder, Developer",
+    imageUrl:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    bio: "I've been a software engineer for over 10 years, and I built Novelize while I was learning PHP. I've been improving it ever since. My passion is user experience — creating software that feels simple and improves people's lives.",
+    xUrl: "#",
+    linkedinUrl: "#",
+  },
+  {
+    name: "Melanie",
+    role: "Marketing Specialist",
     imageUrl:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    bio: "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
+    bio: "Melanie is a writer and artist who lives on AO3 and Tumblr. They're passionate about helping writers find tips, tricks, and tools to succeed — and they bring that same energy to growing Novelize's community.",
     xUrl: "#",
     linkedinUrl: "#",
   },
   {
-    name: "Michael Foster",
-    role: "Co-Founder / CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    bio: "Turpis lectus et amet elementum. Mi duis integer sed in vitae consequat. Nam vitae, in felis mi dui tempus. Porta at turpis eu odio. Et, sed duis in blandit bibendum accumsan. Purus viverra facilisi suspendisse quis est.",
-    xUrl: "#",
-    linkedinUrl: "#",
-  },
-  {
-    name: "Dries Vincent",
-    role: "Business Relations",
+    name: "Benji",
+    role: "Customer Support Specialist",
     imageUrl:
       "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    bio: "Aliquet adipiscing lectus praesent cras sed quis lectus egestas erat. Bibendum curabitur eget habitant feugiat nec faucibus eu lorem suscipit. Vitae vitae tempor enim eget lacus nulla leo.",
+    bio: "Benji discovered a love for helping people while volunteering at a local museum. Now they take care of our amazing users and test new features before release.",
     xUrl: "#",
     linkedinUrl: "#",
   },
@@ -32,21 +32,20 @@ const people = [
 
 <template>
   <UiContainer>
-    <div class="grid grid-cols-1 gap-20 xl:grid-cols-5">
+    <div class="grid grid-cols-1 gap-20 xl:grid-cols-6">
       <div class="max-w-2xl xl:col-span-2">
         <h2
           class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl dark:text-white"
         >
-          About the team
+          The Team
         </h2>
         <p class="mt-6 text-lg/8 text-gray-600 dark:text-gray-400">
-          We're a dynamic group of individuals who are passionate about what we
-          do and dedicated to delivering the best results for our clients.
+          We're a small family team, building Novelize together.
         </p>
       </div>
       <ul
         role="list"
-        class="divide-y divide-gray-200 xl:col-span-3 dark:divide-gray-800"
+        class="divide-y divide-gray-200 xl:col-span-4 dark:divide-gray-800"
       >
         <li
           v-for="person in people"

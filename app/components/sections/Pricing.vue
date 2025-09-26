@@ -1,9 +1,13 @@
 <script setup>
 const includedFeatures = [
-  "Private forum access",
-  "Member resources",
-  "Entry to annual conference",
-  "Official member t-shirt",
+  "Unlimited projects",
+  "Scene-based writing and organization",
+  "Notebook for characters, worldbuilding, and research",
+  "Access on any device",
+  "Distraction-free editor with dark & light modes",
+  "Autosave & backups",
+  "Grammar plugin support",
+  "Export anytime",
 ];
 </script>
 
@@ -16,11 +20,11 @@ const includedFeatures = [
         <h3
           class="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
         >
-          Lifetime membership
+          Novelize Pro
         </h3>
         <p class="mt-6 text-base/7 text-gray-600 dark:text-gray-300">
-          Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet
-          indis perferendis blanditiis repellendus etur quidem assumenda.
+          One plan with everything included. No hidden tiers, no surprises.
+          Start with a 30-day free trial, no credit card required.
         </p>
         <div class="mt-10 flex items-center gap-x-4">
           <h4
@@ -55,25 +59,28 @@ const includedFeatures = [
         >
           <div class="mx-auto max-w-xs px-8">
             <p class="text-base font-semibold text-gray-600 dark:text-gray-400">
-              Pay once, own it forever
+              $9 / month or $65 / year
+            </p>
+            <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
+              Save 40% with annual billing
             </p>
             <p class="mt-6 flex items-baseline justify-center gap-x-2">
               <span
                 class="text-5xl font-semibold tracking-tight text-gray-900 dark:text-white"
-                >$349</span
+                >$9</span
               >
               <span
                 class="text-sm/6 font-semibold tracking-wide text-gray-600 dark:text-gray-400"
-                >USD</span
+                >/month</span
               >
             </p>
             <a
-              href="#"
+              href="https://app.getnovelize.com/register"
               class="mt-10 block w-full rounded-md bg-orange-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-xs hover:bg-orange-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 dark:bg-orange-500 dark:shadow-none dark:hover:bg-orange-400 dark:focus-visible:outline-orange-500"
-              >Get access</a
+              >Start your free 30-day trial</a
             >
             <p class="mt-6 text-xs/5 text-gray-600 dark:text-gray-400">
-              Invoices and receipts available for easy company reimbursement
+              30-day free trial • No credit card required
             </p>
           </div>
         </div>
