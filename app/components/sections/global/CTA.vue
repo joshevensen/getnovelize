@@ -1,7 +1,7 @@
 <template>
   <UiContainer size="xs">
     <div
-      class="bg-orange-500 dark:bg-orange-700 sm:rounded-4xl px-6 lg:px-8 py-16 sm:py-20"
+      class="bg-orange-500 sm:rounded-4xl px-6 lg:px-8 py-16 sm:py-20"
     >
       <div class="mx-auto max-w-2xl text-center">
         <h2

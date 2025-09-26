@@ -28,7 +28,7 @@ const buttonClasses = computed(() => {
     default:
       "bg-orange-600 text-white shadow-sm hover:bg-orange-700 focus-visible:outline-orange-600",
     inverted:
-      "bg-white text-orange-600 shadow-xs hover:bg-orange-50 focus-visible:outline-white dark:shadow-none",
+      "bg-white text-orange-600 shadow-xs hover:bg-orange-50 focus-visible:outline-white",
     outline:
       "border border-orange-600 text-orange-600 bg-transparent hover:bg-orange-50 focus-visible:outline-orange-600",
     text: "text-orange-600 bg-transparent hover:bg-orange-50 focus-visible:outline-orange-600",

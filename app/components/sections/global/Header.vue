@@ -18,13 +18,13 @@ const props = withDefaults(defineProps<Props>(), {
         {{ props.badge }}
       </p>
       <h2
-        class="mt-2 text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl dark:text-white"
+        class="mt-2 text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl"
       >
         {{ props.title }}
       </h2>
       <p
         v-if="props.description"
-        class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8 dark:text-gray-400"
+        class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8"
       >
         {{ props.description }}
       </p>

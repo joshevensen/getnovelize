@@ -32,7 +32,7 @@ const socialMenu = [
             v-for="item in socialMenu"
             :key="item.name"
             :href="item.href"
-            class="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-white"
+            class="text-gray-600 hover:text-gray-800"
           >
             <span class="sr-only">{{ item.name }}</span>
             <UiIcon
@@ -44,7 +44,7 @@ const socialMenu = [
           </a>
         </div>
         <p
-          class="mt-8 text-center text-sm/6 text-gray-600 md:order-1 md:mt-0 dark:text-gray-400"
+          class="mt-8 text-center text-sm/6 text-gray-600 md:order-1 md:mt-0"
         >
           &copy; Novelize 2016 - {{ new Date().getFullYear() }}. All rights
           reserved.

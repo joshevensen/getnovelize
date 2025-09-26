@@ -39,30 +39,28 @@ const features = [
       class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-5"
     >
       <div class="col-span-2">
-        <h2
-          class="text-base/7 font-semibold text-orange-600 dark:text-orange-400"
-        >
+        <h2 class="text-base/7 font-semibold text-orange-600">
           Supporting Features
         </h2>
         <p
-          class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl dark:text-white"
+          class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl"
         >
           More ways Novelize helps you write
         </p>
-        <p class="mt-6 text-base/7 text-gray-700 dark:text-gray-300">
+        <p class="mt-6 text-base/7 text-gray-700">
           Alongside the core features, Novelize includes a set of simple but
           powerful tools that keep your writing process smooth.
         </p>
       </div>
       <dl
-        class="col-span-3 grid grid-cols-1 gap-x-8 gap-y-10 text-base/7 text-gray-600 sm:grid-cols-2 lg:gap-y-16 dark:text-gray-400"
+        class="col-span-3 grid grid-cols-1 gap-x-8 gap-y-10 text-base/7 text-gray-600 sm:grid-cols-2 lg:gap-y-16"
       >
         <div
           v-for="feature in features"
           :key="feature.name"
           class="relative pl-9"
         >
-          <dt class="font-semibold text-gray-900 dark:text-white">
+          <dt class="font-semibold text-gray-900">
             <UiIcon
               name="IconCheck"
               :size="24"

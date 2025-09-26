@@ -14,3 +14,73 @@
   --color-orange-900: #8d3e14;
   --color-orange-950: #703311;
 }
+
+/* Force light mode only - override all dark: classes */
+* {
+  color-scheme: light !important;
+}
+
+/* Override dark mode classes to use light mode values */
+.dark\:bg-gray-900 {
+  background-color: white !important;
+}
+.dark\:bg-gray-800 {
+  background-color: #f9fafb !important;
+}
+.dark\:bg-gray-700 {
+  background-color: #f3f4f6 !important;
+}
+.dark\:bg-white {
+  background-color: white !important;
+}
+.dark\:bg-white\/5 {
+  background-color: #f9fafb !important;
+}
+.dark\:bg-orange-500 {
+  background-color: #dc5b21 !important;
+}
+.dark\:bg-orange-800 {
+  background-color: #a94917 !important;
+}
+
+.dark\:text-white {
+  color: #111827 !important;
+}
+.dark\:text-gray-300 {
+  color: #374151 !important;
+}
+.dark\:text-gray-400 {
+  color: #6b7280 !important;
+}
+.dark\:text-gray-500 {
+  color: #9ca3af !important;
+}
+.dark\:text-orange-400 {
+  color: #dc5b21 !important;
+}
+.dark\:text-orange-500 {
+  color: #dc5b21 !important;
+}
+
+.dark\:border-gray-700 {
+  border-color: #e5e7eb !important;
+}
+.dark\:border-white\/10 {
+  border-color: #e5e7eb !important;
+}
+.dark\:ring-white\/10 {
+  --tw-ring-color: #e5e7eb !important;
+}
+
+.dark\:shadow-none {
+  box-shadow: none !important;
+}
+.dark\:hover\:bg-orange-400:hover {
+  background-color: #c54a1a !important;
+}
+.dark\:hover\:text-orange-300:hover {
+  color: #f4af83 !important;
+}
+.dark\:focus-visible\:outline-orange-500:focus-visible {
+  outline-color: #dc5b21 !important;
+}

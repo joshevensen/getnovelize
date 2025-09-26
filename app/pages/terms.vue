@@ -1,19 +1,19 @@
 <template>
   <UiContainer size="xl">
-    <div class="mx-auto max-w-3xl text-base/7 text-gray-700 dark:text-gray-300">
+    <div class="mx-auto max-w-3xl text-base/7 text-gray-700">
       <h1
-        class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl dark:text-white"
+        class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl"
       >
         Terms of Service
       </h1>
 
-      <p class="mt-6 text-xl/8 text-gray-600 dark:text-gray-400">
+      <p class="mt-6 text-xl/8 text-gray-600">
         <em>Last updated: January 1, 2025</em>
       </p>
 
-      <div class="mt-10 max-w-2xl text-gray-600 dark:text-gray-400">
+      <div class="mt-10 max-w-2xl text-gray-600">
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
         >
           Acceptance of Terms
         </h2>
@@ -24,7 +24,7 @@
         </p>
 
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
         >
           Use License
         </h2>
@@ -35,7 +35,7 @@
         </p>
 
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
         >
           Disclaimer
         </h2>
@@ -50,7 +50,7 @@
         </p>
 
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
         >
           Limitations
         </h2>
@@ -65,7 +65,7 @@
         </p>
 
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
         >
           Accuracy of Materials
         </h2>
@@ -78,7 +78,7 @@
         </p>
 
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
         >
           Links
         </h2>
@@ -91,7 +91,7 @@
         </p>
 
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
         >
           Modifications
         </h2>
@@ -103,7 +103,7 @@
         </p>
 
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
         >
           Governing Law
         </h2>
@@ -114,7 +114,7 @@
         </p>
 
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
         >
           Contact Information
         </h2>
