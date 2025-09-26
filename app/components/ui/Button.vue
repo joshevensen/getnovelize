@@ -1,15 +1,3 @@
-<template>
-  <component
-    :is="href ? 'a' : 'button'"
-    :href="href"
-    :type="href ? undefined : type"
-    :disabled="disabled"
-    :class="buttonClasses"
-  >
-    <slot>Button</slot>
-  </component>
-</template>
-
 <script setup lang="ts">
 interface Props {
   href?: string;
@@ -53,3 +41,15 @@ const buttonClasses = computed(() => {
   ].join(" ");
 });
 </script>
+
+<template>
+  <component
+    :is="href ? 'a' : 'button'"
+    :href="href"
+    :type="href ? undefined : type"
+    :disabled="disabled"
+    :class="buttonClasses"
+  >
+    <slot>Button</slot>
+  </component>
+</template>

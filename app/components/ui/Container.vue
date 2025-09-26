@@ -1,9 +1,3 @@
-<template>
-  <div :class="containerClasses">
-    <slot />
-  </div>
-</template>
-
 <script setup lang="ts">
 interface Props {
   size?: "sm" | "md" | "lg" | "xl";
@@ -30,3 +24,9 @@ const containerClasses = computed(() => {
   return [baseClasses, sizeClasses[props.size], props.class].join(" ");
 });
 </script>
+
+<template>
+  <div :class="containerClasses">
+    <slot />
+  </div>
+</template>

@@ -1,3 +1,17 @@
+<script setup>
+import { ref } from "vue";
+import { Dialog, DialogPanel } from "@headlessui/vue";
+
+const navigation = [
+  { name: "Pricing", href: "/pricing" },
+  { name: "Features", href: "/features" },
+  { name: "About", href: "/about" },
+  { name: "Contact", href: "/contact" },
+];
+
+const mobileMenuOpen = ref(false);
+</script>
+
 <template>
   <header>
     <nav
@@ -113,17 +127,3 @@
     </Dialog>
   </header>
 </template>
-
-<script setup>
-import { ref } from "vue";
-import { Dialog, DialogPanel } from "@headlessui/vue";
-
-const navigation = [
-  { name: "Pricing", href: "/pricing" },
-  { name: "Features", href: "/features" },
-  { name: "About", href: "/about" },
-  { name: "Contact", href: "/contact" },
-];
-
-const mobileMenuOpen = ref(false);
-</script>

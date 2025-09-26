@@ -1,3 +1,12 @@
+<script setup>
+const includedFeatures = [
+  "Private forum access",
+  "Member resources",
+  "Entry to annual conference",
+  "Official member t-shirt",
+];
+</script>
+
 <template>
   <UiContainer size="sm">
     <div
@@ -17,7 +26,7 @@
           <h4
             class="flex-none text-sm/6 font-semibold text-orange-600 dark:text-orange-400"
           >
-            What’s included
+            What's included
           </h4>
           <div class="h-px flex-auto bg-gray-100 dark:bg-white/10" />
         </div>
@@ -72,12 +81,3 @@
     </div>
   </UiContainer>
 </template>
-
-<script setup>
-const includedFeatures = [
-  "Private forum access",
-  "Member resources",
-  "Entry to annual conference",
-  "Official member t-shirt",
-];
-</script>

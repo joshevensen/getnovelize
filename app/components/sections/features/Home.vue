@@ -1,3 +1,29 @@
+<script setup>
+const features = [
+  {
+    name: "Push to deploy",
+    description:
+      "Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu.",
+    href: "#",
+    icon: "IconCloudUp",
+  },
+  {
+    name: "SSL certificates",
+    description:
+      "Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.",
+    href: "#",
+    icon: "IconLock",
+  },
+  {
+    name: "Simple queues",
+    description:
+      "Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod.",
+    href: "#",
+    icon: "IconTrendingUp2",
+  },
+];
+</script>
+
 <template>
   <UiContainer>
     <div class="mx-auto max-w-2xl lg:text-center">
@@ -54,29 +80,3 @@
     </div>
   </UiContainer>
 </template>
-
-<script setup>
-const features = [
-  {
-    name: "Push to deploy",
-    description:
-      "Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu.",
-    href: "#",
-    icon: "IconCloudUp",
-  },
-  {
-    name: "SSL certificates",
-    description:
-      "Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.",
-    href: "#",
-    icon: "IconLock",
-  },
-  {
-    name: "Simple queues",
-    description:
-      "Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod.",
-    href: "#",
-    icon: "IconTrendingUp2",
-  },
-];
-</script>

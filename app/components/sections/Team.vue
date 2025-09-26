@@ -1,3 +1,35 @@
+<script setup>
+const people = [
+  {
+    name: "Leslie Alexander",
+    role: "Co-Founder / CEO",
+    imageUrl:
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    bio: "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
+    xUrl: "#",
+    linkedinUrl: "#",
+  },
+  {
+    name: "Michael Foster",
+    role: "Co-Founder / CTO",
+    imageUrl:
+      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    bio: "Turpis lectus et amet elementum. Mi duis integer sed in vitae consequat. Nam vitae, in felis mi dui tempus. Porta at turpis eu odio. Et, sed duis in blandit bibendum accumsan. Purus viverra facilisi suspendisse quis est.",
+    xUrl: "#",
+    linkedinUrl: "#",
+  },
+  {
+    name: "Dries Vincent",
+    role: "Business Relations",
+    imageUrl:
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    bio: "Aliquet adipiscing lectus praesent cras sed quis lectus egestas erat. Bibendum curabitur eget habitant feugiat nec faucibus eu lorem suscipit. Vitae vitae tempor enim eget lacus nulla leo.",
+    xUrl: "#",
+    linkedinUrl: "#",
+  },
+];
+</script>
+
 <template>
   <UiContainer>
     <div class="grid grid-cols-1 gap-20 xl:grid-cols-5">
@@ -8,7 +40,7 @@
           About the team
         </h2>
         <p class="mt-6 text-lg/8 text-gray-600 dark:text-gray-400">
-          We’re a dynamic group of individuals who are passionate about what we
+          We're a dynamic group of individuals who are passionate about what we
           do and dedicated to delivering the best results for our clients.
         </p>
       </div>
@@ -84,35 +116,3 @@
     </div>
   </UiContainer>
 </template>
-
-<script setup>
-const people = [
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    bio: "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
-    xUrl: "#",
-    linkedinUrl: "#",
-  },
-  {
-    name: "Michael Foster",
-    role: "Co-Founder / CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    bio: "Turpis lectus et amet elementum. Mi duis integer sed in vitae consequat. Nam vitae, in felis mi dui tempus. Porta at turpis eu odio. Et, sed duis in blandit bibendum accumsan. Purus viverra facilisi suspendisse quis est.",
-    xUrl: "#",
-    linkedinUrl: "#",
-  },
-  {
-    name: "Dries Vincent",
-    role: "Business Relations",
-    imageUrl:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    bio: "Aliquet adipiscing lectus praesent cras sed quis lectus egestas erat. Bibendum curabitur eget habitant feugiat nec faucibus eu lorem suscipit. Vitae vitae tempor enim eget lacus nulla leo.",
-    xUrl: "#",
-    linkedinUrl: "#",
-  },
-];
-</script>

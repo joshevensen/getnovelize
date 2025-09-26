@@ -1,3 +1,46 @@
+<script setup>
+const features = [
+  {
+    name: "Invite team members",
+    description:
+      "Rerum repellat labore necessitatibus reprehenderit molestiae praesentium.",
+  },
+  {
+    name: "List view",
+    description:
+      "Corporis asperiores ea nulla temporibus asperiores non tempore assumenda aut.",
+  },
+  {
+    name: "Keyboard shortcuts",
+    description:
+      "In sit qui aliquid deleniti et. Ad nobis sunt omnis. Quo sapiente dicta laboriosam.",
+  },
+  {
+    name: "Calendars",
+    description:
+      "Sed rerum sunt dignissimos ullam. Iusto iure occaecati voluptate eligendi.",
+  },
+  {
+    name: "Notifications",
+    description:
+      "Quos inventore harum enim nesciunt. Aut repellat rerum omnis adipisci.",
+  },
+  {
+    name: "Boards",
+    description:
+      "Quae sit sunt excepturi fugit veniam voluptatem ipsum commodi.",
+  },
+  {
+    name: "Reporting",
+    description: "Eos laudantium repellat sed architecto earum unde incidunt.",
+  },
+  {
+    name: "Mobile app",
+    description: "Nulla est saepe accusamus nostrum est est fugit omnis.",
+  },
+];
+</script>
+
 <template>
   <UiContainer>
     <div
@@ -43,46 +86,3 @@
     </div>
   </UiContainer>
 </template>
-
-<script setup>
-const features = [
-  {
-    name: "Invite team members",
-    description:
-      "Rerum repellat labore necessitatibus reprehenderit molestiae praesentium.",
-  },
-  {
-    name: "List view",
-    description:
-      "Corporis asperiores ea nulla temporibus asperiores non tempore assumenda aut.",
-  },
-  {
-    name: "Keyboard shortcuts",
-    description:
-      "In sit qui aliquid deleniti et. Ad nobis sunt omnis. Quo sapiente dicta laboriosam.",
-  },
-  {
-    name: "Calendars",
-    description:
-      "Sed rerum sunt dignissimos ullam. Iusto iure occaecati voluptate eligendi.",
-  },
-  {
-    name: "Notifications",
-    description:
-      "Quos inventore harum enim nesciunt. Aut repellat rerum omnis adipisci.",
-  },
-  {
-    name: "Boards",
-    description:
-      "Quae sit sunt excepturi fugit veniam voluptatem ipsum commodi.",
-  },
-  {
-    name: "Reporting",
-    description: "Eos laudantium repellat sed architecto earum unde incidunt.",
-  },
-  {
-    name: "Mobile app",
-    description: "Nulla est saepe accusamus nostrum est est fugit omnis.",
-  },
-];
-</script>

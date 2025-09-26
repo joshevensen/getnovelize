@@ -1,3 +1,5 @@
+<script setup></script>
+
 <template>
   <div class="bg-white px-6 py-32 lg:px-8 dark:bg-gray-900">
     <div class="mx-auto max-w-3xl text-base/7 text-gray-700 dark:text-gray-300">
@@ -161,5 +163,3 @@
     </div>
   </div>
 </template>
-
-<script setup></script>
