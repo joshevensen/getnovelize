@@ -1,13 +1,11 @@
-<script setup>
-import Icon from "~/components/ui/Icon.vue";
-</script>
-
 <template>
-  <div class="px-6 py-32 lg:px-8">
+  <div class="bg-white px-6 py-32 lg:px-8 dark:bg-gray-900">
     <div class="mx-auto max-w-3xl text-base/7 text-gray-700 dark:text-gray-300">
-      <p class="text-base/7 font-semibold text-indigo-600">Introducing</p>
+      <p class="text-base/7 font-semibold text-indigo-600 dark:text-indigo-400">
+        Introducing
+      </p>
       <h1
-        class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl"
+        class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl dark:text-white"
       >
         JavaScript for beginners
       </h1>
@@ -17,7 +15,7 @@ import Icon from "~/components/ui/Icon.vue";
         feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget.
         Eleifend egestas fringilla sapien.
       </p>
-      <div class="mt-10 max-w-2xl text-gray-600">
+      <div class="mt-10 max-w-2xl text-gray-600 dark:text-gray-400">
         <p>
           Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
           enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
@@ -26,44 +24,47 @@ import Icon from "~/components/ui/Icon.vue";
           sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis
           id.
         </p>
-        <ul role="list" class="mt-8 max-w-xl space-y-8 text-gray-600">
+        <ul
+          role="list"
+          class="mt-8 max-w-xl space-y-8 text-gray-600 dark:text-gray-400"
+        >
           <li class="flex gap-x-3">
-            <Icon
-              name="check"
-              :size="20"
-              class="mt-1 size-5 flex-none text-indigo-600"
+            <CheckCircleIcon
+              class="mt-1 size-5 flex-none text-indigo-600 dark:text-indigo-400"
               aria-hidden="true"
             />
             <span
-              ><strong class="font-semibold text-gray-900">Data types.</strong>
+              ><strong class="font-semibold text-gray-900 dark:text-white"
+                >Data types.</strong
+              >
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
               impedit perferendis suscipit eaque, iste dolor cupiditate
               blanditiis ratione.</span
             >
           </li>
           <li class="flex gap-x-3">
-            <Icon
-              name="check"
-              :size="20"
-              class="mt-1 size-5 flex-none text-indigo-600"
+            <CheckCircleIcon
+              class="mt-1 size-5 flex-none text-indigo-600 dark:text-indigo-400"
               aria-hidden="true"
             />
             <span
-              ><strong class="font-semibold text-gray-900">Loops.</strong> Anim
-              aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
-              cupidatat commodo.</span
+              ><strong class="font-semibold text-gray-900 dark:text-white"
+                >Loops.</strong
+              >
+              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
+              lorem cupidatat commodo.</span
             >
           </li>
           <li class="flex gap-x-3">
-            <Icon
-              name="check"
-              :size="20"
-              class="mt-1 size-5 flex-none text-indigo-600"
+            <CheckCircleIcon
+              class="mt-1 size-5 flex-none text-indigo-600 dark:text-indigo-400"
               aria-hidden="true"
             />
             <span
-              ><strong class="font-semibold text-gray-900">Events.</strong> Ac
-              tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et
+              ><strong class="font-semibold text-gray-900 dark:text-white"
+                >Events.</strong
+              >
+              Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et
               magna sit morbi lobortis.</span
             >
           </li>
@@ -76,7 +77,7 @@ import Icon from "~/components/ui/Icon.vue";
           integer orci.
         </p>
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
         >
           From beginner to expert in 3 hours
         </h2>
@@ -88,8 +89,10 @@ import Icon from "~/components/ui/Icon.vue";
           Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis
           diam.
         </p>
-        <figure class="mt-10 border-l border-indigo-600 pl-9">
-          <blockquote class="font-semibold text-gray-900">
+        <figure
+          class="mt-10 border-l border-indigo-600 pl-9 dark:border-indigo-400"
+        >
+          <blockquote class="font-semibold text-gray-900 dark:text-white">
             <p>
               "Vel ultricies morbi odio facilisi ultrices accumsan donec lacus
               purus. Lectus nibh ullamcorper ac dictum justo in euismod. Risus
@@ -99,12 +102,14 @@ import Icon from "~/components/ui/Icon.vue";
           </blockquote>
           <figcaption class="mt-6 flex gap-x-4">
             <img
-              class="size-6 flex-none rounded-full bg-gray-50"
+              class="size-6 flex-none rounded-full bg-gray-50 dark:bg-gray-800"
               src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
               alt=""
             />
             <div class="text-sm/6">
-              <strong class="font-semibold text-gray-900">Maria Hill</strong>
+              <strong class="font-semibold text-gray-900 dark:text-white"
+                >Maria Hill</strong
+              >
               – Marketing Manager
             </div>
           </figcaption>
@@ -118,23 +123,23 @@ import Icon from "~/components/ui/Icon.vue";
       </div>
       <figure class="mt-16">
         <img
-          class="aspect-video rounded-xl bg-gray-50 object-cover"
+          class="aspect-video rounded-xl bg-gray-50 object-cover dark:bg-gray-800"
           src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
           alt=""
         />
-        <figcaption class="mt-4 flex gap-x-2 text-sm/6 text-gray-500">
-          <Icon
-            name="info-circle"
-            :size="20"
-            class="mt-0.5 size-5 flex-none text-gray-300"
+        <figcaption
+          class="mt-4 flex gap-x-2 text-sm/6 text-gray-500 dark:text-gray-400"
+        >
+          <InformationCircleIcon
+            class="mt-0.5 size-5 flex-none text-gray-300 dark:text-gray-600"
             aria-hidden="true"
           />
           Faucibus commodo massa rhoncus, volutpat.
         </figcaption>
       </figure>
-      <div class="mt-16 max-w-2xl text-gray-600">
+      <div class="mt-16 max-w-2xl text-gray-600 dark:text-gray-400">
         <h2
-          class="text-3xl font-semibold tracking-tight text-pretty text-gray-900"
+          class="text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
         >
           Everything you need to get up and running
         </h2>
@@ -156,3 +161,5 @@ import Icon from "~/components/ui/Icon.vue";
     </div>
   </div>
 </template>
+
+<script setup></script>

@@ -1,19 +1,19 @@
 <template>
-  <div class="px-6 py-32 lg:px-8">
+  <UiContainer size="xl">
     <div class="mx-auto max-w-3xl text-base/7 text-gray-700 dark:text-gray-300">
       <h1
-        class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl"
+        class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl dark:text-white"
       >
         Terms of Service
       </h1>
 
-      <p class="mt-6 text-xl/8 text-gray-600">
+      <p class="mt-6 text-xl/8 text-gray-600 dark:text-gray-400">
         <em>Last updated: January 1, 2025</em>
       </p>
 
-      <div class="mt-10 max-w-2xl text-gray-600">
+      <div class="mt-10 max-w-2xl text-gray-600 dark:text-gray-400">
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
         >
           Acceptance of Terms
         </h2>
@@ -24,7 +24,7 @@
         </p>
 
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
         >
           Use License
         </h2>
@@ -35,7 +35,7 @@
         </p>
 
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
         >
           Disclaimer
         </h2>
@@ -50,7 +50,7 @@
         </p>
 
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
         >
           Limitations
         </h2>
@@ -65,7 +65,7 @@
         </p>
 
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
         >
           Accuracy of Materials
         </h2>
@@ -78,7 +78,7 @@
         </p>
 
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
         >
           Links
         </h2>
@@ -91,7 +91,7 @@
         </p>
 
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
         >
           Modifications
         </h2>
@@ -103,7 +103,7 @@
         </p>
 
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
         >
           Governing Law
         </h2>
@@ -114,7 +114,7 @@
         </p>
 
         <h2
-          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
+          class="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white"
         >
           Contact Information
         </h2>
@@ -124,12 +124,12 @@
           us at
           <a
             href="mailto:legal@getnovelize.com"
-            class="font-semibold text-indigo-600 hover:text-indigo-500"
+            class="font-semibold text-orange-600 hover:text-orange-500"
           >
             legal@getnovelize.com </a
           >.
         </p>
       </div>
     </div>
-  </div>
+  </UiContainer>
 </template>
