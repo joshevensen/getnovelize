@@ -29,19 +29,13 @@ const people = [
 </script>
 
 <template>
-  <UiContainer>
+  <UiContainer class="-mt-16">
     <h2
       class="text-4xl text-center font-semibold tracking-tight text-gray-900 sm:text-5xl"
     >
       The Team
     </h2>
-    <p class="my-4 mx-auto max-w-4xl text-center text-lg/8 text-gray-600">
-      We're a small family team, building Novelize together. What started as a
-      personal project has grown into something we're all passionate about. My
-      wife was the first to believe in the idea, and now our two oldest children
-      have joined us to help shape Novelize's future.
-    </p>
-    <ul role="list" class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
+    <ul role="list" class="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
       <li
         v-for="person in people"
         :key="person.name"
