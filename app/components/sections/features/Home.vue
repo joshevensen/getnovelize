@@ -46,17 +46,16 @@ const features = [
             />
             {{ feature.name }}
           </dt>
-          <dd
-            class="mt-4 flex flex-auto flex-col text-base/7 text-gray-600"
-          >
+          <dd class="mt-4 flex flex-auto flex-col text-base/7 text-gray-600">
             <p class="flex-auto">{{ feature.description }}</p>
           </dd>
         </div>
       </dl>
     </div>
     <div class="mt-16 text-center">
-      <UiButton href="/features" variant="outline" size="lg">
-        Learn more
+      <UiButton href="/features" variant="text" size="lg">
+        Learn about more features
+        <UiIcon name="IconArrowRight" size="24" class="ml-2" />
       </UiButton>
     </div>
   </UiContainer>

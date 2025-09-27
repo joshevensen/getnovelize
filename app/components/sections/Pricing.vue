@@ -14,18 +14,20 @@ const includedFeatures = [
 <template>
   <UiContainer size="sm">
     <div
-      class="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none"
+      class="mx-auto mt-16 max-w-2xl bg-beige-200 rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none"
     >
       <div class="p-8 sm:p-10 lg:flex-auto">
         <p class="text-xl/7 text-gray-600">
           One plan with everything included. No hidden tiers, no surprises.
-          Start with a 30-day free trial, no credit card required.
+          <strong class="text-orange-600"
+            >Start with a 17-day free trial.</strong
+          >
         </p>
-        <div class="mt-10 flex items-center gap-x-4">
+        <div class="mt-5 flex items-center gap-x-4">
           <h4 class="flex-none text-sm/6 font-semibold text-orange-600">
             What's included
           </h4>
-          <div class="h-px flex-auto bg-gray-100" />
+          <div class="h-px flex-auto bg-beige-400" />
         </div>
         <ul
           role="list"
@@ -39,7 +41,7 @@ const includedFeatures = [
             <UiIcon
               name="IconCheck"
               :size="24"
-              class="size-6"
+              class="size-6 text-orange-600"
               aria-hidden="true"
             />
             {{ feature }}
@@ -48,18 +50,18 @@ const includedFeatures = [
       </div>
       <div class="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:shrink-0">
         <div
-          class="rounded-2xl bg-gray-50 py-6 text-center inset-ring inset-ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-10"
+          class="rounded-2xl bg-beige-300 py-6 text-center inset-ring inset-ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-10"
         >
           <div class="mx-auto max-w-sm px-8">
             <p class="text-6xl font-semibold text-gray-600">$9/month</p>
             <p class="my-4 text-2xl font-semibold text-gray-600">or</p>
             <p class="text-6xl font-semibold text-gray-600">$65/year</p>
-            <a
+            <UiButton
               href="https://app.getnovelize.com/register"
-              class="mt-10 block w-full rounded-md bg-orange-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-xs hover:bg-orange-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
-              >Start writing today</a
+              class="mt-10 block w-full"
             >
-            <p class="mt-6 text-xl/5 text-gray-600">17-day free trial</p>
+              Start writing today
+            </UiButton>
           </div>
         </div>
       </div>

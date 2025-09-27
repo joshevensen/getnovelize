@@ -3,7 +3,7 @@ const pricingFaqs = [
   {
     question: "Is there a free plan?",
     answer:
-      "No. Novelize is a paid service. But you can try everything with a 30-day free trial, no credit card required.",
+      "No. Novelize is a paid service. But you can try everything with a 17-day free trial.",
   },
   {
     question: "Do I need to install anything?",

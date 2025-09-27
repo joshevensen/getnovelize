@@ -50,7 +50,7 @@ const stats = [
       <div
         v-for="stat in stats"
         :key="stat.id"
-        class="flex flex-col bg-gray-400/5 p-8"
+        class="flex flex-col bg-beige-400 p-8"
       >
         <dt class="text-sm/6 font-semibold text-gray-600">
           {{ stat.name }}

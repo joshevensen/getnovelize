@@ -1,8 +1,6 @@
 <template>
   <UiContainer size="xs">
-    <div
-      class="bg-orange-500 sm:rounded-4xl px-6 lg:px-8 py-16 sm:py-20"
-    >
+    <div class="bg-orange-600 sm:rounded-4xl px-6 lg:px-8 py-10 sm:py-12">
       <div class="mx-auto max-w-2xl text-center">
         <h2
           class="text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl"

@@ -8,7 +8,7 @@
   <SectionsAbout />
   <SectionsGlobalCTA
     title="Novelize is built for writers like you. Ready to start your story?"
-    ctaText="Start your free 30-day trial"
+    ctaText="Start your free 17-day trial"
     ctaHref="https://app.getnovelize.com/register"
   />
   <SectionsTeam />

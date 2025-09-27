@@ -14,19 +14,17 @@
         for you, the storyteller.
       </p>
       <div class="mt-10 flex items-center justify-center gap-x-6">
-        <a
-          href="https://app.getnovelize.com/register"
-          class="rounded-md bg-orange-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-orange-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
-          >Start your free 17-day trial</a
-        >
+        <UiButton href="https://app.getnovelize.com/register" size="lg">
+          Start your free 17-day trial
+        </UiButton>
       </div>
     </div>
     <div class="mt-16 flow-root sm:mt-24">
       <div
-        class="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-gray-900/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4"
+        class="-m-2 rounded-xl bg-beige-900/35 p-2 ring-1 ring-gray-900/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4"
       >
         <img
-          src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
+          src="/screenshot.webp"
           alt="App screenshot"
           width="2432"
           height="1442"

@@ -41,28 +41,30 @@ const people = [
       wife was the first to believe in the idea, and now our two oldest children
       have joined us to help shape Novelize's future.
     </p>
-    <ul role="list" class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
+    <ul role="list" class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
       <li
         v-for="person in people"
         :key="person.name"
-        class="flex flex-col items-center text-center"
+        class="flex flex-col items-center"
       >
-        <img
-          class="aspect-4/5 w-42 border border-gray-400 flex-none rounded-2xl object-cover outline-1 -outline-offset-1 outline-black/5"
-          :src="person.imageUrl"
-          alt=""
-        />
-        <div class="mt-6">
-          <h3 class="text-2xl font-semibold tracking-tight text-gray-900">
-            {{ person.name }}
-          </h3>
-          <p class="text-base/7 text-gray-600 font-semibold">
-            {{ person.role }}
-          </p>
-          <p class="mt-4 text-base/7 text-gray-600">
-            {{ person.bio }}
-          </p>
+        <div class="w-full flex items-center gap-6">
+          <div
+            class="w-16 h-16 overflow-hidden rounded-3xl border border-gray-400"
+          >
+            <img class="w-16" :src="person.imageUrl" :alt="person.name" />
+          </div>
+          <div>
+            <h3 class="text-2xl font-semibold tracking-tight text-gray-900">
+              {{ person.name }}
+            </h3>
+            <p class="text-base/7 text-gray-600 font-semibold">
+              {{ person.role }}
+            </p>
+          </div>
         </div>
+        <p class="mt-4 text-base/7 text-gray-600">
+          {{ person.bio }}
+        </p>
       </li>
     </ul>
   </UiContainer>

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 interface Props {
-  size?: "sm" | "md" | "lg" | "xl";
+  size?: "none" | "xs" | "sm" | "md" | "lg" | "xl";
   class?: string;
 }
 

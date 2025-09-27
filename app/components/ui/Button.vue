@@ -5,6 +5,7 @@ interface Props {
   size?: "sm" | "md" | "lg";
   type?: "button" | "submit" | "reset";
   disabled?: boolean;
+  class?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -12,6 +13,7 @@ const props = withDefaults(defineProps<Props>(), {
   size: "md",
   type: "button",
   disabled: false,
+  class: "",
 });
 
 const buttonClasses = computed(() => {
@@ -20,8 +22,8 @@ const buttonClasses = computed(() => {
 
   const sizeClasses = {
     sm: "px-3 py-1.5 text-sm",
-    md: "px-3.5 py-2.5 text-sm",
-    lg: "px-6 py-3 text-base",
+    md: "px-5 py-2.5 text-base",
+    lg: "px-8 py-3 text-lg",
   };
 
   const variantClasses = {
@@ -38,6 +40,7 @@ const buttonClasses = computed(() => {
     baseClasses,
     sizeClasses[props.size],
     variantClasses[props.variant],
+    props.class,
   ].join(" ");
 });
 </script>

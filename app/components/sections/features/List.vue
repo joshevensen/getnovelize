@@ -60,11 +60,11 @@ const features = [
           :key="feature.name"
           class="relative pl-9"
         >
-          <dt class="font-semibold text-gray-900">
+          <dt class="flex items-center gap-x-2 font-semibold text-gray-900">
             <UiIcon
               name="IconCheck"
               :size="24"
-              class="size-6"
+              class="size-6 text-orange-600"
               aria-hidden="true"
             />
             {{ feature.name }}
