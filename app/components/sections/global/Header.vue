@@ -18,7 +18,7 @@ const props = withDefaults(defineProps<Props>(), {
         {{ props.badge }}
       </p>
       <h2
-        class="mt-2 text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl"
+        class="mt-2 text-5xl font-semibold tracking-tight text-orange-600 sm:text-7xl"
       >
         {{ props.title }}
       </h2>

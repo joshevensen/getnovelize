@@ -19,8 +19,7 @@ const people = [
   {
     name: "Benji",
     role: "Customer Support Specialist",
-    imageUrl:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    imageUrl: "/benji.png",
     bio: "Benji discovered a love for helping people while volunteering at a local museum. Now they take care of our amazing users and test new features before release.",
     xUrl: "#",
     linkedinUrl: "#",

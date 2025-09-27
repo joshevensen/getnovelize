@@ -2,7 +2,7 @@
   <UiContainer>
     <div class="mx-auto max-w-4xl text-center">
       <h1
-        class="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl"
+        class="text-5xl font-semibold tracking-tight text-balance text-orange-600 sm:text-7xl"
       >
         Turn your ideas into novels
       </h1>
