@@ -85,8 +85,7 @@
         </div>
       </form>
 
-      <div class="mt-16 border-t border-gray-200 pt-12">
-        <h3 class="text-lg font-semibold text-gray-900">What to expect</h3>
+      <div class="mt-6">
         <p class="mt-4 text-base/7 text-gray-600">
           We don't have a big call center or outsourced support. It's just us —
           the same people who build and run Novelize. We try to answer within 24
