@@ -35,9 +35,6 @@ export default defineNuxtConfig({
         "/terms",
       ],
     },
-    output: {
-      publicDir: "public",
-    },
   },
   vite: {
     plugins: [tailwindcss()],
