@@ -63,31 +63,7 @@ const writingFeatures = [
     description="From first idea to final draft, Novelize gives you the tools to stay focused, stay organized, and keep your story safe."
   />
 
-  <SectionsFeaturesLargeScreenshot />
-
-  <!-- Your Words Are Safe -->
-  <!-- <SectionsFeaturesMainFeature
-    variant="left"
-    title="Your Words Are Safe"
-    description="Your story stays private, secure, and always in your control. Every keystroke is saved automatically, with cloud backups for peace of mind."
-    :features="safetyFeatures"
-  /> -->
-
-  <!-- Stay Organized, Without the Overwhelm -->
-  <!-- <SectionsFeaturesMainFeature
-    variant="right"
-    title="Stay Organized, Without the Overwhelm"
-    description="It's structure without the clutter of bloated tools. Keep track of characters, research, and worldbuilding notes without breaking your writing flow."
-    :features="organizationFeatures"
-  /> -->
-
-  <!-- Write Anywhere, With Calm -->
-  <!-- <SectionsFeaturesMainFeature
-    variant="left"
-    title="Write Anywhere, With Calm"
-    description="Wherever inspiration strikes, Novelize is there with a clean, cozy editor. A distraction-free space that works on phone, tablet, or laptop."
-    :features="writingFeatures"
-  /> -->
+  <SectionsFeaturesMain />
 
   <SectionsFeaturesList />
   <SectionsGlobalCTA

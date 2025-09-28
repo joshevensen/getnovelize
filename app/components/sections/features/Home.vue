@@ -25,7 +25,7 @@ const features = [
 </script>
 
 <template>
-  <UiContainer class="mt-0">
+  <UiContainer size="lg">
     <div class="mx-auto max-w-2xl lg:max-w-none">
       <dl
         class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3"
@@ -52,7 +52,7 @@ const features = [
         </div>
       </dl>
     </div>
-    <div class="mt-16 text-center">
+    <div class="mt-10 text-center">
       <UiButton href="/features" variant="text" size="lg">
         Learn about more features
         <UiIcon name="IconArrowRight" size="24" class="ml-2" />
