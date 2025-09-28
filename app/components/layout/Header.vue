@@ -24,7 +24,7 @@ const mobileMenuOpen = ref(false);
       <div class="flex md:flex-1">
         <NuxtLink to="/" class="-m-1.5 p-1.5">
           <span class="sr-only">Novelize</span>
-          <img class="h-8 w-auto" src="/logo.png" alt="Novelize" />
+          <img class="h-6 md:h-8 w-auto" src="/logo.png" alt="Novelize" />
         </NuxtLink>
       </div>
       <div class="hidden md:flex md:gap-x-12">
@@ -75,7 +75,7 @@ const mobileMenuOpen = ref(false);
         <div class="flex items-center gap-x-6">
           <NuxtLink to="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Novelize</span>
-            <img class="h-8 w-auto" src="/logo.png" alt="Novelize" />
+            <img class="h-6 md:h-8 w-auto" src="/logo.png" alt="Novelize" />
           </NuxtLink>
           <UiButton :href="signupUrl" size="sm" class="ml-auto">
             Start Writing
