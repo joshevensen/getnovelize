@@ -4,7 +4,7 @@ useHead({
   meta: [{ name: "description", content: "Simple Novel Writing App" }],
   htmlAttrs: {
     lang: "en",
-    class: "bg-beige-300",
+    class: "bg-parchment-200",
   },
 });
 </script>

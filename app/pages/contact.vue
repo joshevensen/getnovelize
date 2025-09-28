@@ -2,9 +2,14 @@
 
 <template>
   <SectionsGlobalHeader
-    title="Get in touch"
-    description="Whether you have a question about Novelize, need help with your account, or just want to say hello — we'd love to hear from you."
+    title="Talk to the Team"
+    description="Have a question, need help, or just want to share your story? We'd love to hear from you."
   />
   <SectionsContact />
-  <SectionsGlobalCTA />
+  <SectionsGlobalCTA
+    title="Want to dive right in?"
+    description="While you wait for a reply, you can start writing your novel today."
+    ctaText="Start Writing Now"
+    ctaHref="https://app.getnovelize.com/register"
+  />
 </template>

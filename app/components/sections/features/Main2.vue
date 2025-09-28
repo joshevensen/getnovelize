@@ -6,21 +6,18 @@
       class="mx-auto max-w-4xl border-t border-b border-gray-300 py-20 text-center"
     >
       <h2 class="text-base/7 font-semibold text-orange-600">
-        Characters & Worldbuilding
+        Stay Organized, Without the Overwhelm
       </h2>
       <p
-        class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl"
+        class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-parchment-900 sm:text-5xl"
       >
-        Keep characters, research, and worldbuilding notes right where you
-        write.
+        Break your book into scenes, keep characters and notes in one place, and
+        restructure as you go.
       </p>
       <p class="mt-6 text-lg/8 text-gray-700">
-        With the Notebook always at your side, you can track character traits,
-        relationship arcs, and worldbuilding notes without breaking your writing
-        flow. Instead of juggling sticky notes or scattered docs, you can keep
-        character bios, AU variations, and relationship notes in one place,
-        store research, rules, and lore where they're easy to reference, and
-        jump between notes and your draft without losing momentum.
+        It's structure without the clutter of bloated tools. Keep track of
+        characters, research, and worldbuilding notes without breaking your
+        writing flow. Everything lives alongside your manuscript.
       </p>
     </div>
   </UiContainer>

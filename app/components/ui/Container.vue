@@ -10,7 +10,7 @@ const props = withDefaults(defineProps<Props>(), {
 });
 
 const containerClasses = computed(() => {
-  const baseClasses = "mx-auto max-w-7xl px-6 sm:px-12 lg:px-18";
+  const baseClasses = "mx-auto max-w-8xl px-6 sm:px-12 lg:px-18";
 
   const sizeClasses = {
     none: "",

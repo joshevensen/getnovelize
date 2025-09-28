@@ -1,27 +1,26 @@
 <template>
   <UiContainer>
-    <div class="mx-auto max-w-4xl text-center">
+    <div class="mx-auto max-w-5xl text-center">
       <h1
-        class="text-5xl font-semibold tracking-tight text-balance text-orange-600 sm:text-7xl"
+        class="text-5xl font-semibold tracking-tight text-balance text-orange-600 sm:text-7xl leading-normal"
       >
-        Turn your ideas into novels
+        Finish your novel without distractions
       </h1>
       <p
-        class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8"
+        class="mt-8 mx-auto max-w-2xl text-lg font-medium text-pretty text-parchment-800 sm:text-xl/8"
       >
-        When you're done with Scrivener's complexity and Google Docs'
-        distractions, Novelize gives you a simple, focused writing space built
-        for you, the storyteller.
+        Novelize is the online writing space built for authors, fanfic writers,
+        and storytellers who want to stay focused and organized.
       </p>
       <div class="mt-10 flex items-center justify-center gap-x-6">
         <UiButton href="https://app.getnovelize.com/register" size="lg">
-          Start your free 17-day trial
+          Start Writing
         </UiButton>
       </div>
     </div>
     <div class="mt-16 flow-root sm:mt-24">
       <div
-        class="-m-2 rounded-xl bg-beige-900/35 p-2 ring-1 ring-gray-900/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4"
+        class="-m-2 rounded-xl bg-parchment-900/15 p-2 ring-1 ring-gray-900/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4"
       >
         <img
           src="/screenshot.webp"

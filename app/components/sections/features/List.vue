@@ -1,34 +1,64 @@
 <script setup>
 const features = [
   {
-    name: "Organize by Scenes",
+    name: "Notebook & Worldbuilding",
     description:
-      "Break your story into smaller pieces you can rearrange, expand, or edit on their own. Perfect for non-linear writing and episodic storytelling.",
+      "Keep track of characters, locations, and lore without sticky notes or scattered docs. Everything lives alongside your manuscript.",
+  },
+  {
+    name: "Scene-Based Writing",
+    description:
+      "Break your story into scenes you can write out of order, rearrange, and reshape as your draft evolves.",
+  },
+  {
+    name: "Organize Mode",
+    description:
+      "Drag and drop chapters or scenes to restructure your novel with ease — no more clunky cut and paste.",
+  },
+  {
+    name: "Outline Mode",
+    description:
+      "Summarize chapters and map the flow of your book. Great for planners who want a bird's-eye view.",
+  },
+  {
+    name: "Scene History",
+    description:
+      "Go back to any previous version of a scene. Perfect for rewrites, experiments, or undoing late-night edits.",
   },
   {
     name: "Autosave & Backups",
     description:
-      "Every keystroke is saved automatically. Even if your computer crashes or you lose connection, your words are safe and waiting when you return.",
+      "Never lose a word. Every keystroke is saved instantly, with cloud backups for peace of mind.",
   },
   {
-    name: "Multiple Modes",
+    name: "Cross-Device Access",
     description:
-      "Switch between outline, write, and organize views. Each mode gives you just the tools you need for that stage of the process.",
+      "Write at your desk, on your laptop, or on your phone. Your work syncs everywhere you go.",
   },
   {
-    name: "Dark/Light Themes",
+    name: "Distraction-Free Editor",
     description:
-      "Write comfortably, day or night. Choose the theme that fits your environment and keep your eyes relaxed.",
+      "A clean, calm space that helps you focus on your words and nothing else.",
   },
   {
-    name: "Grammar Plugin Support",
+    name: "Word Count Goals",
     description:
-      "Connect Novelize with tools like Grammarly or ProWritingAid for real-time editing feedback while you write.",
+      "Track your progress with daily and weekly targets. Build momentum and celebrate milestones.",
+  },
+  {
+    name: "Weekly Progress Emails",
+    description:
+      "Get a gentle nudge in your inbox with updates on your writing streaks and achievements.",
   },
   {
     name: "Export Anytime",
     description:
-      "Download your story as a Word document whenever you want. Simple, fast, and yours to keep.",
+      "Download your manuscript — scenes, chapters, notes, and all — to .docx whenever you're ready.",
+  },
+  {
+    name: "Dark Mode",
+    description:
+      "Write comfortably day or night with themes that fit your mood and reduce eye strain.",
   },
 ];
 </script>
@@ -43,7 +73,7 @@ const features = [
           Supporting Features
         </h2>
         <p
-          class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl"
+          class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-parchment-900 sm:text-5xl"
         >
           More ways Novelize helps you write
         </p>
@@ -60,7 +90,9 @@ const features = [
           :key="feature.name"
           class="relative pl-9"
         >
-          <dt class="flex items-center gap-x-2 font-semibold text-gray-900">
+          <dt
+            class="flex items-center gap-x-2 font-semibold text-parchment-900"
+          >
             <UiIcon
               name="IconCheck"
               :size="24"

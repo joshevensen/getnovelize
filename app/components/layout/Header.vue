@@ -32,7 +32,7 @@ const mobileMenuOpen = ref(false);
           v-for="item in navigation"
           :key="item.name"
           :to="item.href"
-          class="text-sm/6 font-semibold text-gray-900"
+          class="text-sm/6 font-semibold text-parchment-900"
         >
           {{ item.name }}
         </NuxtLink>
@@ -45,7 +45,7 @@ const mobileMenuOpen = ref(false);
           class="hidden! md:block!"
           >Log in</UiButton
         >
-        <UiButton :href="signupUrl" size="sm">Sign up</UiButton>
+        <UiButton :href="signupUrl" size="sm">Start Writing</UiButton>
       </div>
       <div class="flex md:hidden">
         <button
@@ -78,7 +78,7 @@ const mobileMenuOpen = ref(false);
             <img class="h-8 w-auto" src="/logo.png" alt="Novelize" />
           </NuxtLink>
           <UiButton :href="signupUrl" size="sm" class="ml-auto">
-            Sign up
+            Start Writing
           </UiButton>
           <button
             type="button"
@@ -94,7 +94,7 @@ const mobileMenuOpen = ref(false);
             <div class="space-y-2 py-6">
               <NuxtLink
                 to="/"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-parchment-900 hover:bg-gray-50"
                 @click="mobileMenuOpen = false"
                 >Home
               </NuxtLink>
@@ -102,7 +102,7 @@ const mobileMenuOpen = ref(false);
                 v-for="item in navigation"
                 :key="item.name"
                 :to="item.href"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-parchment-900 hover:bg-gray-50"
                 @click="mobileMenuOpen = false"
                 >{{ item.name }}
               </NuxtLink>

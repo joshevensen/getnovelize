@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 @import "tailwindcss";
 
 @theme {
+  /* Font Families */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --container-8xl: 100rem;
+
   /* Orange Palette */
   --color-orange-50: #fef7f0;
   --color-orange-100: #fdeee0;
@@ -26,4 +32,16 @@
   --color-beige-800: #b5ae9c;
   --color-beige-900: #a89f8b;
   --color-beige-950: #9b9079;
+
+  --color-parchment-50: #f8f7f4;
+  --color-parchment-100: #f2f1eb;
+  --color-parchment-200: #ebe9e2; /* parchment */
+  --color-parchment-300: #e0ddd3;
+  --color-parchment-400: #d0cdc2;
+  --color-parchment-500: #bbb7a9;
+  --color-parchment-600: #9e9a8e;
+  --color-parchment-700: #7e7b70;
+  --color-parchment-800: #626057;
+  --color-parchment-900: #4c4a44;
+  --color-parchment-950: #2c2b28;
 }

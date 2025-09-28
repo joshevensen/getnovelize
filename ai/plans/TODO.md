@@ -1,8 +1,0 @@
-- Create commmon ui components
-- Set pages to proper sections
-- Get privacy and terms working with Content
-- Get site data working with Content
-- Get docs setup
-- Write doc articles
-- Get blog setup
-- Write blog poss

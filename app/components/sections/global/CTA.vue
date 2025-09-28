@@ -1,23 +1,31 @@
+<script setup lang="ts">
+interface Props {
+  title: string;
+  description: string;
+  ctaText: string;
+  ctaHref: string;
+}
+
+defineProps<Props>();
+</script>
+
 <template>
-  <UiContainer size="xs">
+  <UiContainer size="xs" class="max-w-[90rem]!">
     <div class="bg-orange-600 sm:rounded-4xl px-6 lg:px-8 py-10 sm:py-12">
-      <div class="mx-auto max-w-2xl text-center">
+      <div class="text-center">
         <h2
-          class="text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl"
+          class="mx-auto max-w-6xl text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl"
         >
-          Ready to start your story?
+          {{ title }}
         </h2>
-        <p class="mx-auto mt-6 max-w-xl text-2xl/8 text-pretty text-orange-200">
-          Join hundreds of writers who use Novelize to stay organized, focused,
-          and inspired.
+        <p
+          class="mx-auto mt-6 max-w-5xl text-3xl/8 text-pretty text-orange-200"
+        >
+          {{ description }}
         </p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
-          <UiButton
-            href="https://app.getnovelize.com/register"
-            variant="inverted"
-            size="lg"
-          >
-            Start your free 17-day trial
+          <UiButton :href="ctaHref" variant="inverted" size="lg">
+            {{ ctaText }}
           </UiButton>
         </div>
       </div>

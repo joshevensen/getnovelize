@@ -2,14 +2,15 @@
 
 <template>
   <SectionsGlobalHeader
-    title="Built by a developer, shaped by writers"
-    description="Novelize started as a simple side project to make writing easier. Today, it's grown into a family-run app used by thousands of storytellers around the world."
+    title="Every Story Has a Beginning"
+    description="Novelize began as a simple idea: give writers a space built just for them. What started as a small project has grown into a tool trusted by thousands of storytellers around the world."
   />
   <SectionsAbout />
   <SectionsTeam />
   <SectionsGlobalCTA
-    title="Novelize is built for writers like you. Ready to start your story?"
-    ctaText="Start your free 17-day trial"
+    title="Ready to start your story?"
+    description="Join thousands of writers already drafting in Novelize."
+    ctaText="Start Writing Today"
     ctaHref="https://app.getnovelize.com/register"
   />
 </template>

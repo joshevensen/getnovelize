@@ -14,7 +14,7 @@ const includedFeatures = [
 <template>
   <UiContainer size="sm">
     <div
-      class="mx-auto mt-16 max-w-2xl bg-beige-200 rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none"
+      class="mx-auto mt-16 max-w-2xl bg-parchment-50 rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none"
     >
       <div class="p-8 sm:p-10 lg:flex-auto">
         <p class="text-xl/7 text-gray-600">
@@ -27,7 +27,7 @@ const includedFeatures = [
           <h4 class="flex-none text-sm/6 font-semibold text-orange-600">
             What's included
           </h4>
-          <div class="h-px flex-auto bg-beige-400" />
+          <div class="h-px flex-auto bg-parchment-300" />
         </div>
         <ul
           role="list"
@@ -50,7 +50,7 @@ const includedFeatures = [
       </div>
       <div class="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:shrink-0">
         <div
-          class="rounded-2xl bg-beige-300 py-6 text-center inset-ring inset-ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-10"
+          class="rounded-2xl bg-parchment-200 py-6 text-center inset-ring inset-ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-10"
         >
           <div class="mx-auto max-w-sm px-8">
             <p class="text-6xl font-semibold text-gray-600">$9/month</p>

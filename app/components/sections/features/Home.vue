@@ -1,23 +1,23 @@
 <script setup>
 const features = [
   {
-    name: "Write Without Fear",
+    name: "Your Words Are Safe",
     description:
-      "Your stories are private by default, and we'll never censor your work. Every word you write is saved automatically and backed up securely, so you don't have to worry about losing progress. Write freely, knowing your stories belong to you alone until you decide to share them.",
+      "Autosave, backups, and scene history mean you'll never lose progress. Your story stays private and under your control.",
     href: "#",
     icon: "IconShield",
   },
   {
-    name: "Characters & Worldbuilding",
+    name: "Stay Organized, Without the Overwhelm",
     description:
-      "Keep all your characters, research, and worldbuilding notes right where you write. No more scattered documents or lost details — everything is organized in one place. The Notebook makes it easy to track relationships, lore, and story rules while staying in your flow.",
+      "Break your book into scenes, track characters and notes, and rearrange freely. It's structure that helps, not clutter that overwhelms.",
     href: "#",
     icon: "IconBook",
   },
   {
-    name: "Write Anywhere, Distraction-Free",
+    name: "Write Anywhere, With Calm",
     description:
-      "Write on your laptop, tablet, or phone — Novelize works wherever inspiration strikes. The editor is clean, uncluttered, and customizable with dark or light mode. Focus on your words, not on menus or distractions.",
+      "A distraction-free space that works on laptop, tablet, or phone. Wherever inspiration strikes, Novelize is there with a clean, cozy editor.",
     href: "#",
     icon: "IconDeviceMobile",
   },
@@ -36,7 +36,7 @@ const features = [
           class="flex flex-col"
         >
           <dt
-            class="flex items-center gap-x-3 text-xl/7 font-semibold text-gray-900"
+            class="flex items-center gap-x-3 text-xl/7 font-semibold text-parchment-900"
           >
             <UiIcon
               :name="feature.icon"

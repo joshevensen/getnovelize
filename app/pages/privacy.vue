@@ -2,7 +2,7 @@
   <UiContainer size="xl">
     <div class="mx-auto max-w-3xl text-base/7 text-gray-700">
       <h1
-        class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl"
+        class="text-4xl font-semibold tracking-tight text-pretty text-parchment-900 sm:text-5xl"
       >
         Privacy Policy
       </h1>
@@ -13,7 +13,7 @@
 
       <div class="mt-10 max-w-2xl text-gray-600">
         <h2
-          class="mt-10 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
+          class="mt-10 text-3xl font-semibold tracking-tight text-pretty text-parchment-900"
         >
           Information We Collect
         </h2>
@@ -23,7 +23,7 @@
           create an account, use our services, or contact us for support.
         </p>
 
-        <h3 class="mt-8 text-xl font-semibold text-gray-900">
+        <h3 class="mt-8 text-xl font-semibold text-parchment-900">
           Personal Information
         </h3>
         <ul role="list" class="mt-2 pl-4 list-disc text-gray-600">
@@ -32,7 +32,7 @@
           <li>Content you create and store in our service</li>
         </ul>
 
-        <h3 class="mt-8 text-xl font-semibold text-gray-900">
+        <h3 class="mt-8 text-xl font-semibold text-parchment-900">
           Usage Information
         </h3>
         <ul role="list" class="mt-2 pl-4 list-disc text-gray-600">
@@ -42,7 +42,7 @@
         </ul>
 
         <h2
-          class="mt-10 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
+          class="mt-10 text-3xl font-semibold tracking-tight text-pretty text-parchment-900"
         >
           How We Use Your Information
         </h2>
@@ -56,7 +56,7 @@
         </ul>
 
         <h2
-          class="mt-10 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
+          class="mt-10 text-3xl font-semibold tracking-tight text-pretty text-parchment-900"
         >
           Information Sharing
         </h2>
@@ -68,7 +68,7 @@
         </p>
 
         <h2
-          class="mt-10 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
+          class="mt-10 text-3xl font-semibold tracking-tight text-pretty text-parchment-900"
         >
           Data Security
         </h2>
@@ -80,7 +80,7 @@
         </p>
 
         <h2
-          class="mt-10 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
+          class="mt-10 text-3xl font-semibold tracking-tight text-pretty text-parchment-900"
         >
           Your Rights
         </h2>
@@ -95,7 +95,7 @@
         </ul>
 
         <h2
-          class="mt-10 text-3xl font-semibold tracking-tight text-pretty text-gray-900"
+          class="mt-10 text-3xl font-semibold tracking-tight text-pretty text-parchment-900"
         >
           Contact Us
         </h2>

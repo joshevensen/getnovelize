@@ -1,7 +1,5 @@
 # Novelize Team
 
-_September 2025_
-
 ## Team Members & Core Roles
 
 - **Josh** – Dev / Product / Business  
