@@ -3,8 +3,8 @@ import { ref } from "vue";
 import { Dialog, DialogPanel } from "@headlessui/vue";
 
 const navigation = [
-  { name: "Pricing", href: "/pricing" },
   { name: "Features", href: "/features" },
+  { name: "Pricing", href: "/pricing" },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
