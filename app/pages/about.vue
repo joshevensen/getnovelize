@@ -3,10 +3,9 @@
 <template>
   <SectionsGlobalHeader
     title="Every Story Has a Beginning"
-    description="Novelize began as a simple idea: give writers a space built just for them. What started as a small project has grown into a tool trusted by thousands of storytellers around the world."
+    description="We built the writing space we wanted for ourselves — a clean, reliable place to focus on the story."
   />
   <SectionsAbout />
-  <SectionsTeam />
   <SectionsGlobalCTA
     title="Ready to start your story?"
     description="Join thousands of writers already drafting in Novelize."

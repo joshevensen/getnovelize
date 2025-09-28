@@ -18,7 +18,7 @@
         </UiButton>
       </div>
     </div>
-    <div class="mt-16 flow-root sm:mt-24">
+    <div class="mt-16 md:flow-root sm:mt-24 hidden">
       <div
         class="-m-2 rounded-xl bg-parchment-900/15 p-2 ring-1 ring-gray-900/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4"
       >

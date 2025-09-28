@@ -1,6 +1,6 @@
 <template>
   <UiContainer>
-    <div class="relative overflow-hidden">
+    <div class="relative overflow-hidden hidden md:block">
       <img
         src="/screenshot.webp"
         alt="App screenshot"
@@ -19,7 +19,7 @@
         <div
           v-for="feature in features"
           :key="feature.name"
-          class="flex flex-col px-6 first:pl-0 last:pr-0"
+          class="flex flex-col lg:px-6 lg:first:pl-0 lg:last:pr-0"
         >
           <dt
             class="flex items-center gap-x-3 text-xl/7 font-semibold text-gray-900"
