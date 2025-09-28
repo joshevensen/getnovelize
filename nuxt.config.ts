@@ -13,6 +13,9 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxt/scripts",
   ],
+  nitro: {
+    prerender: { crawlLinks: true, routes: ["/"] },
+  },
   vite: {
     plugins: [tailwindcss()],
   },
