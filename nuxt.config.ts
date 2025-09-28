@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   css: ["~/assets/main.css"],
   devtools: { enabled: true },
+  ssr: false,
   app: {
     head: {
       link: [
@@ -22,9 +23,30 @@ export default defineNuxtConfig({
     "@nuxt/scripts",
   ],
   nitro: {
-    prerender: { crawlLinks: true, routes: ["/"] },
+    prerender: {
+      crawlLinks: false,
+      routes: [
+        "/",
+        "/about",
+        "/contact",
+        "/features",
+        "/pricing",
+        "/privacy",
+        "/terms",
+      ],
+    },
+    output: {
+      publicDir: "public",
+    },
   },
   vite: {
     plugins: [tailwindcss()],
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks: undefined,
+        },
+      },
+    },
   },
 });

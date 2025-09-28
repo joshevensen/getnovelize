@@ -6,6 +6,7 @@
     "dev": "nuxt dev",
     "build": "nuxt build",
     "generate": "nuxt generate",
+    "deploy": "nuxt generate && echo 'Static site generated in public/ directory'",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
