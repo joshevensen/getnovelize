@@ -10,20 +10,17 @@ const handleSubmit = async (event) => {
   const formData = new FormData(event.target);
 
   try {
-    const response = await fetch(
-      "https://staging.getnovelize.com/contact-form",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name: formData.get("name"),
-          email: formData.get("email"),
-          message: formData.get("message"),
-        }),
-      }
-    );
+    const response = await fetch("https://app.getnovelize.com/contact-form", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name: formData.get("name"),
+        email: formData.get("email"),
+        message: formData.get("message"),
+      }),
+    });
 
     const data = await response.json();
 
