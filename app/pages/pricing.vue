@@ -1,4 +1,21 @@
 <script setup>
+const { data: seoData } = await useAsyncData("pricing-seo", () =>
+  queryCollection("seo").first()
+);
+
+useSeoMeta({
+  title: seoData.value?.pricing.title,
+  description: seoData.value?.pricing.description,
+  ogTitle: seoData.value?.pricing.title,
+  ogDescription: seoData.value?.pricing.description,
+  ogImage: "https://getnovelize.com/screenshot.webp",
+  ogUrl: "https://getnovelize.com/pricing",
+  twitterCard: "summary_large_image",
+  twitterTitle: seoData.value?.pricing.title,
+  twitterDescription: seoData.value?.pricing.description,
+  twitterImage: "https://getnovelize.com/screenshot.webp",
+});
+
 const pricingFaqs = [
   {
     question: "How does the trial work?",

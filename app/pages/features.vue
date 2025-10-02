@@ -1,4 +1,21 @@
 <script setup>
+const { data: seoData } = await useAsyncData("features-seo", () =>
+  queryCollection("seo").first()
+);
+
+useSeoMeta({
+  title: seoData.value?.features.title,
+  description: seoData.value?.features.description,
+  ogTitle: seoData.value?.features.title,
+  ogDescription: seoData.value?.features.description,
+  ogImage: "https://getnovelize.com/screenshot.webp",
+  ogUrl: "https://getnovelize.com/features",
+  twitterCard: "summary_large_image",
+  twitterTitle: seoData.value?.features.title,
+  twitterDescription: seoData.value?.features.description,
+  twitterImage: "https://getnovelize.com/screenshot.webp",
+});
+
 // Your Words Are Safe features
 const safetyFeatures = [
   {

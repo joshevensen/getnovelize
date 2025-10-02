@@ -1,3 +1,22 @@
+<script setup>
+const { data: seoData } = await useAsyncData("terms-seo", () =>
+  queryCollection("seo").first()
+);
+
+useSeoMeta({
+  title: seoData.value?.terms.title,
+  description: seoData.value?.terms.description,
+  ogTitle: seoData.value?.terms.title,
+  ogDescription: seoData.value?.terms.description,
+  ogImage: "https://getnovelize.com/screenshot.webp",
+  ogUrl: "https://getnovelize.com/terms",
+  twitterCard: "summary_large_image",
+  twitterTitle: seoData.value?.terms.title,
+  twitterDescription: seoData.value?.terms.description,
+  twitterImage: "https://getnovelize.com/screenshot.webp",
+});
+</script>
+
 <template>
   <UiContainer size="xl">
     <div class="mx-auto max-w-3xl text-base/7 text-gray-700">

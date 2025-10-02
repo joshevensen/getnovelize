@@ -1,4 +1,21 @@
-<script setup></script>
+<script setup>
+const { data: seoData } = await useAsyncData("about-seo", () =>
+  queryCollection("seo").first()
+);
+
+useSeoMeta({
+  title: seoData.value?.about.title,
+  description: seoData.value?.about.description,
+  ogTitle: seoData.value?.about.title,
+  ogDescription: seoData.value?.about.description,
+  ogImage: "https://getnovelize.com/screenshot.webp",
+  ogUrl: "https://getnovelize.com/about",
+  twitterCard: "summary_large_image",
+  twitterTitle: seoData.value?.about.title,
+  twitterDescription: seoData.value?.about.description,
+  twitterImage: "https://getnovelize.com/screenshot.webp",
+});
+</script>
 
 <template>
   <SectionsGlobalHeader

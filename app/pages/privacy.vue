@@ -1,3 +1,22 @@
+<script setup>
+const { data: seoData } = await useAsyncData("privacy-seo", () =>
+  queryCollection("seo").first()
+);
+
+useSeoMeta({
+  title: seoData.value?.privacy.title,
+  description: seoData.value?.privacy.description,
+  ogTitle: seoData.value?.privacy.title,
+  ogDescription: seoData.value?.privacy.description,
+  ogImage: "https://getnovelize.com/screenshot.webp",
+  ogUrl: "https://getnovelize.com/privacy",
+  twitterCard: "summary_large_image",
+  twitterTitle: seoData.value?.privacy.title,
+  twitterDescription: seoData.value?.privacy.description,
+  twitterImage: "https://getnovelize.com/screenshot.webp",
+});
+</script>
+
 <template>
   <UiContainer size="xl">
     <div class="mx-auto max-w-3xl text-base/7 text-gray-700">
