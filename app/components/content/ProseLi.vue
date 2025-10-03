@@ -1,3 +1,5 @@
 <template>
-  <li><slot /></li>
+  <li class="text-base leading-7">
+    <slot />
+  </li>
 </template>
