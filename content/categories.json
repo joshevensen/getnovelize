@@ -1,0 +1,27 @@
+[
+  {
+    "id": "author-spotlight",
+    "name": "Author Spotlight",
+    "description": "Meet the writers in our community"
+  },
+  {
+    "id": "writing-tips",
+    "name": "Writing Tips",
+    "description": "Practical advice for your writing journey"
+  },
+  {
+    "id": "product-updates",
+    "name": "Product Updates",
+    "description": "Latest features and improvements to Novelize"
+  },
+  {
+    "id": "community-stories",
+    "name": "Community Stories",
+    "description": "Stories from the Novelize community"
+  },
+  {
+    "id": "announcements",
+    "name": "Announcements",
+    "description": "Important news and updates from the team"
+  }
+]

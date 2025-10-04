@@ -1,30 +1,9 @@
-<script setup>
-const people = [
-  {
-    name: "Josh",
-    role: "Founder, Developer",
-    imageUrl: "/josh.png",
-    bio: "Loves Dr Pepper and dad jokes almost as much as tinkering with code.",
-    xUrl: "#",
-    linkedinUrl: "#",
-  },
-  {
-    name: "Melanie",
-    role: "Marketing Specialist",
-    imageUrl: "/melanie.png",
-    bio: "Forever chasing new books and always talking about the next story idea.",
-    xUrl: "#",
-    linkedinUrl: "#",
-  },
-  {
-    name: "Benji",
-    role: "Customer Support Specialist",
-    imageUrl: "/benji.png",
-    bio: "Into psychology, animals, and helping writers feel at home here.",
-    xUrl: "#",
-    linkedinUrl: "#",
-  },
-];
+<script setup lang="ts">
+const { data: team } = await useAsyncData("team", () =>
+  queryCollection("team").first()
+);
+
+console.log(team.value.meta.body);
 </script>
 
 <template>
@@ -135,14 +114,14 @@ const people = [
           </h2>
           <ul role="list" class="mt-6 space-y-10">
             <li
-              v-for="(person, index) in people"
+              v-for="person in team.meta.body"
               :key="person.name"
               class="flex items-start gap-4"
             >
               <div
                 class="w-12 h-12 overflow-hidden rounded-2xl border border-gray-400 flex-shrink-0"
               >
-                <img class="w-12" :src="person.imageUrl" :alt="person.name" />
+                <img class="w-12" :src="person.image" :alt="person.name" />
               </div>
               <div>
                 <h3

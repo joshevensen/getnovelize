@@ -10,6 +10,45 @@ export default defineContentConfig({
     posts: defineCollection({
       type: "page",
       source: "posts/**/*.md",
+      schema: z.object({
+        // Core metadata
+        title: z.string(),
+        description: z.string(),
+        publishedAt: z.string().datetime(),
+        updatedAt: z.string().datetime().optional(),
+
+        // Author information (references team member ID)
+        authorId: z.string(),
+
+        // Content categorization
+        category: z.string(), // References categories.json
+        tags: z.array(z.string()),
+
+        // Visual elements
+        coverImage: z.string().optional(),
+
+        // Excerpt support (for <!--more--> divider)
+        excerpt: z
+          .object({
+            type: z.string(),
+            children: z.any(),
+          })
+          .optional(),
+
+        // SEO & visibility
+        featured: z.boolean().default(false),
+        draft: z.boolean().default(false),
+        seo: z
+          .object({
+            title: z.string().optional(),
+            description: z.string().optional(),
+            ogImage: z.string().optional(),
+          })
+          .optional(),
+
+        // Engagement
+        readingTime: z.number().optional(), // minutes
+      }),
     }),
     company: defineCollection({
       type: "data",
@@ -22,6 +61,32 @@ export default defineContentConfig({
           email: z.string(),
         }),
       }),
+    }),
+    team: defineCollection({
+      type: "data",
+      source: "team.json",
+      schema: z.array(
+        z.object({
+          id: z.string(),
+          name: z.string(),
+          role: z.string(),
+          image: z.string(),
+          bio: z.string(),
+          xUrl: z.string().optional(),
+          linkedinUrl: z.string().optional(),
+        })
+      ),
+    }),
+    categories: defineCollection({
+      type: "data",
+      source: "categories.json",
+      schema: z.array(
+        z.object({
+          id: z.string(),
+          name: z.string(),
+          description: z.string(),
+        })
+      ),
     }),
     menus: defineCollection({
       type: "data",

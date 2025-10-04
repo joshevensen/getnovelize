@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const { data: seoData } = await useAsyncData("about-seo", () =>
   queryCollection("seo").first()
 );
