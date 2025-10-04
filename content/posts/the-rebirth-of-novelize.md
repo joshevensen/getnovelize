@@ -1,17 +1,22 @@
 ---
-title: "The Rebirth of Novelize"
-description: "The new team is here, and we're committed to making Novelize the best tool for writers who just want to write."
-publishedAt: "2025-10-02T00:00:00Z"
-authorId: "josh"
-category: "announcements"
-tags: ["novelize", "team", "updates"]
-coverImage: "/screenshot.webp"
+title: The Rebirth of Novelize
+description: The new team is here, and we're committed to making Novelize the
+  best tool for writers who just want to write.
+publishedAt: 2025-10-02T00:00:00Z
+authorId: josh
+category: announcements
+tags:
+  - novelize
+  - team
+  - updates
+coverImage: /screenshot.webp
 featured: true
 draft: false
 readingTime: 5
 seo:
-  title: "The Rebirth of Novelize - New Team, New Vision"
-  description: "Meet the new team behind Novelize and learn about our commitment to building the best writing tool for authors who just want to write."
+  title: The Rebirth of Novelize - New Team, New Vision
+  description: Meet the new team behind Novelize and learn about our commitment to
+    building the best writing tool for authors who just want to write.
 ---
 
 # The Rebirth of Novelize
@@ -73,4 +78,4 @@ Now, let's get back to what matters most: **your story**.
 
 ---
 
-_Have questions or feedback? [Reach out to us](/contact)—we'd love to hear from you._
+*Have questions or feedback? [Reach out to us](/contact)—we'd love to hear from you.*
