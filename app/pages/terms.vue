@@ -1,20 +1,20 @@
-<script setup>
-const { data: seoData } = await useAsyncData("terms-seo", () =>
-  queryCollection("seo").first()
-);
+<script setup lang="ts">
+const appConfig = useAppConfig();
 
-useSeoMeta({
-  title: seoData.value?.terms.title,
-  description: seoData.value?.terms.description,
-  ogTitle: seoData.value?.terms.title,
-  ogDescription: seoData.value?.terms.description,
-  ogImage: "https://getnovelize.com/screenshot.webp",
-  ogUrl: "https://getnovelize.com/terms",
-  twitterCard: "summary_large_image",
-  twitterTitle: seoData.value?.terms.title,
-  twitterDescription: seoData.value?.terms.description,
-  twitterImage: "https://getnovelize.com/screenshot.webp",
-});
+if (appConfig.seo?.terms) {
+  useSeoMeta({
+    title: appConfig.seo.terms.title,
+    description: appConfig.seo.terms.description,
+    ogTitle: appConfig.seo.terms.title,
+    ogDescription: appConfig.seo.terms.description,
+    ogImage: "https://getnovelize.com/screenshot.webp",
+    ogUrl: "https://getnovelize.com/terms",
+    twitterCard: "summary_large_image",
+    twitterTitle: appConfig.seo.terms.title,
+    twitterDescription: appConfig.seo.terms.description,
+    twitterImage: "https://getnovelize.com/screenshot.webp",
+  });
+}
 </script>
 
 <template>

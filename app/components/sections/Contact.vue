@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const isSubmitting = ref(false);
 const isSubmitted = ref(false);
 const errorMessage = ref("");

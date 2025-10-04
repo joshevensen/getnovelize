@@ -1,20 +1,20 @@
-<script setup>
-const { data: seoData } = await useAsyncData("privacy-seo", () =>
-  queryCollection("seo").first()
-);
+<script setup lang="ts">
+const appConfig = useAppConfig();
 
-useSeoMeta({
-  title: seoData.value?.privacy.title,
-  description: seoData.value?.privacy.description,
-  ogTitle: seoData.value?.privacy.title,
-  ogDescription: seoData.value?.privacy.description,
-  ogImage: "https://getnovelize.com/screenshot.webp",
-  ogUrl: "https://getnovelize.com/privacy",
-  twitterCard: "summary_large_image",
-  twitterTitle: seoData.value?.privacy.title,
-  twitterDescription: seoData.value?.privacy.description,
-  twitterImage: "https://getnovelize.com/screenshot.webp",
-});
+if (appConfig.seo?.privacy) {
+  useSeoMeta({
+    title: appConfig.seo.privacy.title,
+    description: appConfig.seo.privacy.description,
+    ogTitle: appConfig.seo.privacy.title,
+    ogDescription: appConfig.seo.privacy.description,
+    ogImage: "https://getnovelize.com/screenshot.webp",
+    ogUrl: "https://getnovelize.com/privacy",
+    twitterCard: "summary_large_image",
+    twitterTitle: appConfig.seo.privacy.title,
+    twitterDescription: appConfig.seo.privacy.description,
+    twitterImage: "https://getnovelize.com/screenshot.webp",
+  });
+}
 </script>
 
 <template>

@@ -1,20 +1,20 @@
-<script setup>
-const { data: seoData } = await useAsyncData("pricing-seo", () =>
-  queryCollection("seo").first()
-);
+<script setup lang="ts">
+const appConfig = useAppConfig();
 
-useSeoMeta({
-  title: seoData.value?.pricing.title,
-  description: seoData.value?.pricing.description,
-  ogTitle: seoData.value?.pricing.title,
-  ogDescription: seoData.value?.pricing.description,
-  ogImage: "https://getnovelize.com/screenshot.webp",
-  ogUrl: "https://getnovelize.com/pricing",
-  twitterCard: "summary_large_image",
-  twitterTitle: seoData.value?.pricing.title,
-  twitterDescription: seoData.value?.pricing.description,
-  twitterImage: "https://getnovelize.com/screenshot.webp",
-});
+if (appConfig.seo?.pricing) {
+  useSeoMeta({
+    title: appConfig.seo.pricing.title,
+    description: appConfig.seo.pricing.description,
+    ogTitle: appConfig.seo.pricing.title,
+    ogDescription: appConfig.seo.pricing.description,
+    ogImage: "https://getnovelize.com/screenshot.webp",
+    ogUrl: "https://getnovelize.com/pricing",
+    twitterCard: "summary_large_image",
+    twitterTitle: appConfig.seo.pricing.title,
+    twitterDescription: appConfig.seo.pricing.description,
+    twitterImage: "https://getnovelize.com/screenshot.webp",
+  });
+}
 
 const pricingFaqs = [
   {

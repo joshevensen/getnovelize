@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 useHead({
   title: "Novelize",
   meta: [{ name: "description", content: "Simple Novel Writing App" }],

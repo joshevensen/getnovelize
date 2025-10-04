@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const socialMenu = [
   {
     name: "Tumblr",
@@ -43,9 +43,7 @@ const socialMenu = [
             />
           </a>
         </div>
-        <p
-          class="mt-8 text-center text-sm/6 text-gray-600 md:order-1 md:mt-0"
-        >
+        <p class="mt-8 text-center text-sm/6 text-gray-600 md:order-1 md:mt-0">
           &copy; Novelize 2016 - {{ new Date().getFullYear() }}. All rights
           reserved.
           <a

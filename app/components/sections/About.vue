@@ -1,9 +1,9 @@
 <script setup lang="ts">
 const { data: team } = await useAsyncData("team", () =>
-  queryCollection("team").first()
+  queryCollection("team").all()
 );
 
-console.log(team.value.meta.body);
+console.log(team.value);
 </script>
 
 <template>
@@ -114,8 +114,8 @@ console.log(team.value.meta.body);
           </h2>
           <ul role="list" class="mt-6 space-y-10">
             <li
-              v-for="person in team.meta.body"
-              :key="person.name"
+              v-for="person in team"
+              :key="person.id"
               class="flex items-start gap-4"
             >
               <div

@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const features = [
   {
     name: "Notebook & Worldbuilding",
