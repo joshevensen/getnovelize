@@ -1,1 +1,0 @@
-import{_ as o}from"./DlAUqK2U.js";import{c as r,o as t,a as s}from"#entry";const n={};function a(c,e){return t(),r("div",null,[...e[0]||(e[0]=[s("h1",null,"Blog Post",-1)])])}const f=o(n,[["render",a]]);export{f as default};
