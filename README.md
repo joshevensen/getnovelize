@@ -73,3 +73,7 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+cd /home/forge/getnovelize.com
+
+git pull origin $FORGE_SITE_BRANCH
